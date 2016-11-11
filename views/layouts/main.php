@@ -29,19 +29,19 @@ AppAsset::register($this);
     <div class="row">
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav affix">
-                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> Выпадающие списки</a></li>
-                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i> Группы кнопок</a></li>
-                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Выпадающие списки кнопок</a></li>
-                <li><a href="#navs"><i class="icon-chevron-right"></i> Навигация</a></li>
-                <li><a href="#navbar"><i class="icon-chevron-right"></i> Панель навигации</a></li>
-                <li><a href="#breadcrumbs"><i class="icon-chevron-right"></i> Навигационные цепочки («Хлебные крошки»)</a></li>
-                <li><a href="#pagination"><i class="icon-chevron-right"></i> Разбиение на страницы</a></li>
-                <li><a href="#labels-badges"><i class="icon-chevron-right"></i> Ярлыки и бейджи</a></li>
-                <li><a href="#typography"><i class="icon-chevron-right"></i> Оформление</a></li>
-                <li><a href="#thumbnails"><i class="icon-chevron-right"></i> Миниатюры</a></li>
-                <li><a href="#alerts"><i class="icon-chevron-right"></i> Сообщения</a></li>
-                <li><a href="#progress"><i class="icon-chevron-right"></i> Индикатор процесса</a></li>
-                <li><a href="#misc"><i class="icon-chevron-right"></i> Дополнительно</a></li>
+                <li>logo</li>
+                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a></li>
+                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i> ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
+                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> ПОДПИСКИ</a></li>
+                <li><a href="#navs"><i class="icon-chevron-right"></i> УСЛУГИ</a></li>
+                <li><a href="#navbar"><i class="icon-chevron-right"></i> НАШИ ПАРТНЕРЫ</a></li>
+                <li><a href="#breadcrumbs"><i class="icon-chevron-right"></i> ПОЧЕМУ МЫ</a></li>
+                <li><a href="#pagination"><i class="icon-chevron-right"></i> СЕРТИФИКАТЫ</a></li>
+                <li><a href="#labels-badges"><i class="icon-chevron-right"></i> ПРЕИМУЩЕСТВА</a></li>
+                <li><a href="#typography"><i class="icon-chevron-right"></i> КОМАНДА</a></li>
+                <li><a href="#thumbnails"><i class="icon-chevron-right"></i> КАЛЬКУЛЯТОР</a></li>
+                <li><a href="#alerts"><i class="icon-chevron-right"></i> КОНТАКТЫ</a></li>
+
             </ul>
         </div>
 
