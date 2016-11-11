@@ -19,58 +19,40 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => 'My Company',
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
-    NavBar::end();
-    ?>
+<div class="container">
+    <div class="row">
+        <div class="span3 bs-docs-sidebar">
+            <ul class="nav nav-list bs-docs-sidenav affix">
+                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> Выпадающие списки</a></li>
+                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i> Группы кнопок</a></li>
+                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Выпадающие списки кнопок</a></li>
+                <li><a href="#navs"><i class="icon-chevron-right"></i> Навигация</a></li>
+                <li><a href="#navbar"><i class="icon-chevron-right"></i> Панель навигации</a></li>
+                <li><a href="#breadcrumbs"><i class="icon-chevron-right"></i> Навигационные цепочки («Хлебные крошки»)</a></li>
+                <li><a href="#pagination"><i class="icon-chevron-right"></i> Разбиение на страницы</a></li>
+                <li><a href="#labels-badges"><i class="icon-chevron-right"></i> Ярлыки и бейджи</a></li>
+                <li><a href="#typography"><i class="icon-chevron-right"></i> Оформление</a></li>
+                <li><a href="#thumbnails"><i class="icon-chevron-right"></i> Миниатюры</a></li>
+                <li><a href="#alerts"><i class="icon-chevron-right"></i> Сообщения</a></li>
+                <li><a href="#progress"><i class="icon-chevron-right"></i> Индикатор процесса</a></li>
+                <li><a href="#misc"><i class="icon-chevron-right"></i> Дополнительно</a></li>
+            </ul>
+        </div>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= $content ?>
+        <div class="span9">
+            <?= Breadcrumbs::widget([
+                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            ]) ?>
+            <?= $content ?>
+        </div>
     </div>
 </div>
-
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
 
 <?php $this->endBody() ?>
 </body>
