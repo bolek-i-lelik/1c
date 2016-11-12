@@ -41,10 +41,10 @@ class Firepred extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Title',
-            'description' => 'Description',
-            'link' => 'Link',
-            'image' => 'Image',
+            'title' => 'Название',
+            'description' => 'Описание',
+            'link' => 'Ссылка',
+            'image' => 'Изображение',
         ];
     }
 }
