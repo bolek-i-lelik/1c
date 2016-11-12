@@ -30,19 +30,17 @@ AppAsset::register($this);
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav affix">
                 <li>logo</li>
-                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a>
-                     
-                </li>
-                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i> ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
-                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> ПОДПИСКИ</a></li>
-                <li><a href="#navs"><i class="icon-chevron-right"></i> УСЛУГИ</a></li>
-                <li><a href="#navbar"><i class="icon-chevron-right"></i> НАШИ ПАРТНЕРЫ</a></li>
-                <li><a href="#breadcrumbs"><i class="icon-chevron-right"></i> ПОЧЕМУ МЫ</a></li>
-                <li><a href="#pagination"><i class="icon-chevron-right"></i> СЕРТИФИКАТЫ</a></li>
-                <li><a href="#labels-badges"><i class="icon-chevron-right"></i> ПРЕИМУЩЕСТВА</a></li>
-                <li><a href="#typography"><i class="icon-chevron-right"></i> КОМАНДА</a></li>
-                <li><a href="#thumbnails"><i class="icon-chevron-right"></i> КАЛЬКУЛЯТОР</a></li>
-                <li><a href="#alerts"><i class="icon-chevron-right"></i> КОНТАКТЫ</a></li>
+                <li><a href="#dropdowns">ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a></li>
+                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i>ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
+                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i>ПОДПИСКИ</a></li>
+                <li><a href="#navs"><i class="icon-chevron-right"></i>УСЛУГИ</a></li>
+                <li><a href="#navbar">НАШИ ПАРТНЕРЫ</a></li>
+                <li><a href="#breadcrumbs">ПОЧЕМУ МЫ</a></li>
+                <li><a href="#pagination">СЕРТИФИКАТЫ</a></li>
+                <li><a href="#labels-badges">ПРЕИМУЩЕСТВА</a></li>
+                <li><a href="#typography">КОМАНДА</a></li>
+                <li><a href="#thumbnails">КАЛЬКУЛЯТОР</a></li>
+                <li><a href="#alerts">КОНТАКТЫ</a></li>
 
             </ul>
         </div>
