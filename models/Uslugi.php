@@ -42,11 +42,11 @@ class Uslugi extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Title',
-            'link' => 'Link',
-            'description' => 'Description',
-            'idjs' => 'Idjs',
-            'image' => 'Image',
+            'title' => 'Название',
+            'link' => 'Ссылка',
+            'description' => 'Описание',
+            'idjs' => 'Идентификатор',
+            'image' => 'Изображение',
         ];
     }
 }

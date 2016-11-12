@@ -44,13 +44,13 @@ class Contacts extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'address' => 'Address',
+            'address' => 'Адрес',
             'email' => 'Email',
-            'tel' => 'Tel',
+            'tel' => 'Телефон',
             'facebook' => 'Facebook',
             'vk' => 'Vk',
             'instagramm' => 'Instagramm',
-            'karta' => 'Karta',
+            'karta' => 'карта',
         ];
     }
 }

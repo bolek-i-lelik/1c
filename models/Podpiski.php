@@ -42,11 +42,11 @@ class Podpiski extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Title',
-            'price' => 'Price',
-            'period' => 'Period',
-            'link' => 'Link',
-            'image' => 'Image',
+            'title' => 'Название',
+            'price' => 'Цена',
+            'period' => 'Период',
+            'link' => 'Ссылка',
+            'image' => 'Изображение',
         ];
     }
 }

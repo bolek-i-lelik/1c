@@ -38,7 +38,7 @@ class Sertificates extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'image' => 'Image',
+            'image' => 'Изображение',
         ];
     }
 }

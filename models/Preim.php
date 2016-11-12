@@ -40,9 +40,9 @@ class Preim extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'image' => 'Image',
-            'title' => 'Title',
-            'description' => 'Description',
+            'image' => 'Изображение',
+            'title' => 'Название',
+            'description' => 'Описание',
         ];
     }
 }

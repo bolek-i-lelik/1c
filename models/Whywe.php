@@ -38,7 +38,7 @@ class Whywe extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'text' => 'Text',
+            'text' => 'Текст',
         ];
     }
 }

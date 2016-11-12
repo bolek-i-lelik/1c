@@ -42,10 +42,10 @@ class Comanda extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'image' => 'Image',
-            'familia' => 'Familia',
-            'nameandotec' => 'Nameandotec',
-            'dolzhnost' => 'Dolzhnost',
+            'image' => 'Изображение',
+            'familia' => 'Фамилия',
+            'nameandotec' => 'Имя и Отчество',
+            'dolzhnost' => 'Должность',
             'email' => 'Email',
         ];
     }

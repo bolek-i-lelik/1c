@@ -42,11 +42,11 @@ class Partners extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'logo' => 'Logo',
-            'param1' => 'Param1',
-            'param2' => 'Param2',
-            'param3' => 'Param3',
-            'param4' => 'Param4',
+            'logo' => 'Логотип',
+            'param1' => 'Параметр 1',
+            'param2' => 'Параметр 2',
+            'param3' => 'Параметр 3',
+            'param4' => 'Параметр 4',
         ];
     }
 }
