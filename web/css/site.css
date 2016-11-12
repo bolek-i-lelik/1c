@@ -1912,23 +1912,23 @@ form.bs-docs-example {
 -------------------------------------------------- */
 
 .bs-docs-sidenav {
-  width: 228px;
+  width: 190px;
   margin: 30px 0 0;
   padding: 0;
-  background-color: #fff;
+  /*background-color: #fff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);*/
 }
 .bs-docs-sidenav > li > a {
   display: block;
   *width: 190px;
   margin: 0 0 -1px;
-  padding: 8px 14px;
-  border: 1px solid #e5e5e5;
+  padding: 0px 14px;
+  /*border: 1px solid #e5e5e5;*/
 }
 .bs-docs-sidenav > li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
@@ -1994,7 +1994,7 @@ width: 10px;
     max-width: 970px;
   }
   .bs-docs-sidenav {
-    width: 258px;
+    width: 190px;
   }
 }
 
@@ -2036,7 +2036,7 @@ width: 10px;
   }
   /* Adjust sidenav width */
   .bs-docs-sidenav {
-    width: 166px;
+    width: 190px;
     margin-top: 20px;
   }
   .bs-docs-sidenav.affix {
@@ -2174,3 +2174,59 @@ width: 10px;
     float: none;
   }
 }
+.logo{
+  
+  padding-bottom: 50px;
+}
+.nav > li img {
+  padding-left: 14px;
+  padding-bottom: 0px;
+}
+@font-face {
+    font-family: MuseoSansCyrl-100; 
+    src: url(/img/MuseoSansCyrl-100.otf); 
+
+    font-family: MuseoSansCyrl-100italic; 
+    src: url(/img/MuseoSansCyrl-100italic.otf); 
+
+    font-family: MuseoSansCyrl-300; 
+    src: url(/img/MuseoSansCyrl-300.otf); 
+
+    font-family: MuseoSansCyrl-300italic; 
+    src: url(/img/MuseoSansCyrl-300italic.otf); 
+
+    font-family: MuseoSansCyrl-500; 
+    src: url(/img/MuseoSansCyrl-500.otf); 
+
+    font-family: MuseoSansCyrl-500italic; 
+    src: url(/img/MuseoSansCyrl-500italic.otf); 
+
+    font-family: MuseoSansCyrl-700; 
+    src: url(/img/MuseoSansCyrl-700.otf); 
+
+    font-family: MuseoSansCyrl-700italic; 
+    src: url(/img/MuseoSansCyrl-700italic.otf); 
+
+    font-family: MuseoSansCyrl-900; 
+    src: url(/img/MuseoSansCyrl-900.otf); 
+
+    font-family: MuseoSansCyrl-900italic; 
+    src: url(/img/MuseoSansCyrl-900italic.otf); 
+   }
+   a{
+    font-family: "MuseoSansCyrl-700";
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+   }
+   .tel{
+    padding-top:50px;
+    display: inline-block;
+
+   }
+   .colorText{
+    color: #a054bb;
+   }
+   .tel p {
+    display: inline;
+   }

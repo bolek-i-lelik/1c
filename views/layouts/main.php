@@ -29,18 +29,19 @@ AppAsset::register($this);
     <div class="row">
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav affix">
-                <li>logo</li>
-                <li><a href="#dropdowns">ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a></li>
-                <li><a href="#buttonGroups"><i class="icon-chevron-right"></i>ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
-                <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i>ПОДПИСКИ</a></li>
-                <li><a href="#navs"><i class="icon-chevron-right"></i>УСЛУГИ</a></li>
-                <li><a href="#navbar">НАШИ ПАРТНЕРЫ</a></li>
-                <li><a href="#breadcrumbs">ПОЧЕМУ МЫ</a></li>
-                <li><a href="#pagination">СЕРТИФИКАТЫ</a></li>
-                <li><a href="#labels-badges">ПРЕИМУЩЕСТВА</a></li>
-                <li><a href="#typography">КОМАНДА</a></li>
-                <li><a href="#thumbnails">КАЛЬКУЛЯТОР</a></li>
-                <li><a href="#alerts">КОНТАКТЫ</a></li>
+                <li class = "logo"><img src="/img/logo.png"><br><img src="/img/ramicon.png"></li>
+                <li><img src="/img/borderMain.png"><a href="#dropdowns">горячие <br>предложения</a></li>
+                <li><img src="/img/borderMain.png"><a href="#buttonGroups"><i class="icon-chevron-right"></i>программное <br>обеспечение</a></li>
+                <li><img src="/img/borderMain.png"><a href="#buttonDropdowns"><i class="icon-chevron-right"></i>подписки</a></li>
+                <li><img src="/img/borderMain.png"><a href="#navs"><i class="icon-chevron-right"></i>услуги</a></li>
+                <li><img src="/img/borderRazd.png"><a href="#navbar">наши партнеры</a></li>
+                <li><img src="/img/borderMain.png"><a href="#breadcrumbs">почему мы</a></li>
+                <li><img src="/img/borderMain.png"><a href="#pagination">сертификаты</a></li>
+                <li><img src="/img/borderMain.png"><a href="#labels-badges">преимущества</a></li>
+                <li><img src="/img/borderMain.png"><a href="#typography">команда</a></li>
+                <li><img src="/img/_xcf.png"><a href="#thumbnails">калькулятор</a></li>
+                <li><img src="/img/borderMain.png"><a href="#alerts">контакты</a><img src="/img/borderMain.png"></li>
+                <li class="tel"><img src="/img/tel.png">  <p>8(812)</p><p class="colorText">336-48-30</p></li>
 
             </ul>
         </div>
