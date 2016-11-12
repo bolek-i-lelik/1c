@@ -2233,7 +2233,7 @@ width: 10px;
     display: inline;
    }
    
-   .btn-ZZ{
+   #btn-ZZ{
     border: 1px solid #a054bb; /* Рамка */
     background-color: #a054bb;
     display: inline-block;
@@ -2244,15 +2244,18 @@ width: 10px;
     text-align: center;
   vertical-align: middle;
   }
-   .btn-ZZ:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
-    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
-    color: #a054bb;
-    height: 30px;
+  
+  #btn-ZZ:hover {
+    border: 1px solid #a054bb; /* Рамка */
+    background-color: #a054bb;
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #fff; /* Цвет текста */
+        height: 30px;
     text-align: center;
   vertical-align: middle;
-   }
-  
+  }
    
 .bs-docs-sidenav > li:last-child {
   text-align: center;
