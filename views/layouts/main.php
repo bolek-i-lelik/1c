@@ -30,7 +30,9 @@ AppAsset::register($this);
         <div class="span3 bs-docs-sidebar">
             <ul class="nav nav-list bs-docs-sidenav affix">
                 <li>logo</li>
-                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a></li>
+                <li><a href="#dropdowns"><i class="icon-chevron-right"></i> ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a>
+                     
+                </li>
                 <li><a href="#buttonGroups"><i class="icon-chevron-right"></i> ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
                 <li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> ПОДПИСКИ</a></li>
                 <li><a href="#navs"><i class="icon-chevron-right"></i> УСЛУГИ</a></li>

@@ -1963,10 +1963,11 @@ form.bs-docs-example {
 .bs-docs-sidenav a:hover .icon-chevron-right {
   opacity: .5;
 }
-.bs-docs-sidenav .active .icon-chevron-right,
-.bs-docs-sidenav .active a:hover .icon-chevron-right {
-  background-image: url(../img/glyphicons-halflings-white.png);
+.icon-chevron-right {
+  background-image: url(/img/next.png);
   opacity: 1;
+  height: 10px;
+width: 10px;
 }
 .bs-docs-sidenav.affix {
   top: 30px;
@@ -1977,7 +1978,10 @@ form.bs-docs-example {
   bottom: 270px;
 }
 
-
+.next {
+  background-image: url(/img/next.png);
+  opacity: 1;
+}
 
 
 /* Responsive
