@@ -21,27 +21,44 @@ $this->title = 'My Yii Application';
                                 	Быстро и эффективно установим и настроим программы 1с
                                 </div>-->
                                 <div class="row">
-                                	<div></div>
+                                	<div class="col-lg-6">
+                                        <img src="/img/slide.png">
+                                    </div>
+                                    <div class="col-lg-6 textSlider">
+                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
+                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
+                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                    </div>
                                 </div>
-                                <img src="/img/slide.png">
+                                <!--<img src="/img/slide.png">
 						        <div class="carousel-caption">
                                 	Быстро и эффективно установим и настроим программы 1с
-                                </div>  
-                                <div class="carousel-caption-opis">
+                                </div>  -->
+                                <!--<div class="carousel-caption-opis">
                                 	С учетом особенностей ваших бизнес-процессов и задач
-                                </div>                         
+                                </div>        -->                 
 						    </div>
                             <div class="item" >
-                                <img src="/img/slide.png">
-						        <div class="carousel-caption">
-                                	Быстро и эффективно установим и настроим программы 1с
-                                </div> 
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="/img/slide.png">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
+                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <img src="/img/slide.png">
-						        <div class="carousel-caption">
-                                	Быстро и эффективно установим и настроим программы 1с
-                                </div>  
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="/img/slide.png">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
+                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                    </div>
+                                </div>
                             </div>
                 </div>
                 <a class="left carousel-control" href="#carousel" data-slide="prev">
