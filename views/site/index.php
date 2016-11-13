@@ -6,7 +6,7 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
-    <div><a name="slider"><h2>Горячие предложения</h2></a>
+    <div class="col-lg-12"><a name="slider"><h2>Горячие предложения</h2></a>
     	
     	<div id="carousel" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -24,12 +24,13 @@ $this->title = 'My Yii Application';
                                 	<div class="col-lg-6">
                                         <img src="/img/slide.png">
                                     </div>
-                                    <div class="col-lg-6 textSlider">
+                                    <div class="col-lg-6 textSlider" style="position:relative;">
                                         <div class="col-lg-12"><img src="/img/bord1.png"></div>
-                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
+                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
                                         <div closs="col-lg-12"><img src="/img/bord2.png"></div>
-                                        <div class="col-lg-12 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
-
+                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                        <div class="col-lg-6"><a href="#" id="btn-ZZSLD">заказать</a></div>
+                                        <div class="col-lg-6"><a href="#">Подробнее</a></div>
                                     </div>
                                 </div>
                                 <!--<img src="/img/slide.png">
@@ -74,7 +75,7 @@ $this->title = 'My Yii Application';
             </div>
             <div style="min-height: 50px;"></div>
     </div>
-    <div><a  name="po"><h2>программное обеспечение</h2></a>
+    <div class="col-lg-12"><a  name="po"><h2>программное обеспечение</h2></a>
 		<img src="/img/po.png">
     </div>
 

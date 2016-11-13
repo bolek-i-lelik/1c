@@ -2319,6 +2319,7 @@ width: 10px;
     background-repeat: repeat-x;
 }
 .textBlocMain {
+  padding-left: 10%;
     color: #a054bb;
     font-size: 24px;
     text-align: left;
@@ -2327,7 +2328,7 @@ width: 10px;
     font-weight: 700;
      }
 .textSlider {
-  left: 10%;
+  
 }
 .carousel-caption-opis {
     right: 10%;
@@ -2350,4 +2351,27 @@ width: 10px;
     text-shadow:none;
     font-family: "MuseoSansCyrl-500";
     font-weight: 500;
+    padding-left: 10%;
+    padding-right: 20%;
      }
+     .textSlider img{
+      padding-left: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+     }
+
+     #btn-ZZSLD{
+    border: 1px solid #ff6d5a; /* Рамка */
+    background-color: #ff6d5a;
+    display: inline-block;
+    padding: 10px 10px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #fff; /* Цвет текста */
+        height: 20px;
+    text-align: center;
+  vertical-align: middle;
+  margin-left: 20%;
+  position: absolute;
+
+
+  }
