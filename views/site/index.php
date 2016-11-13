@@ -7,7 +7,38 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div><a name="slider"><h2>Горячие предложения</h2></a>
-    	<img src="/img/slide.png">
+    	
+    	<div id="carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/img/slide.png">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/img/slide.png">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/img/slide.png">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                </div>
+                <a class="left carousel-control" href="#carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <div style="min-height: 50px;"></div>
     </div>
     <div><a  name="po"><h2>программное обеспечение</h2></a>
 		<img src="/img/po.png">
