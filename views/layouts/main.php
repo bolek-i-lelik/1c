@@ -58,7 +58,7 @@ AppAsset::register($this);
                 <!--</div>-->
             </nav>
         </div>
-        <div class="span3 bs-docs-sidebar hidden-xs">
+        <div class="col-lg-3 col-md-3 col-sm-4 bs-docs-sidebar hidden-xs">
             <ul class="nav nav-list bs-docs-sidenav affix">
                 <li class = "logo"><img src="/img/logo.png"><br><img src="/img/ramicon.png"></li>
                 <li><img src="/img/borderMain.png"><a href="#slider">горячие <br>предложения</a></li>
@@ -77,7 +77,7 @@ AppAsset::register($this);
 
             </ul>
         </div>
-        <div class="span9">
+        <div class="col-lg-9  col-md-9 col-sm-8">
             <?= Breadcrumbs::widget([
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]) ?>

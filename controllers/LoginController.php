@@ -6,10 +6,12 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
+use app\models\LoginForm;
 
-
-class AdminController extends Controller
+class LoginController extends Controller
 {
+
+	public $layout = 'login';
 
 	/**
      * @inheritdoc
@@ -19,10 +21,10 @@ class AdminController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['index'],
+                'only' => ['logout'],
                 'rules' => [
                     [
-                        'actions' => ['index'],
+                        'actions' => ['logout'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -37,12 +39,20 @@ class AdminController extends Controller
         ];
     }
 
-
-	public $layout = 'admin';
-
     public function actionIndex()
     {
-        return $this->render('index');
+
+        if (!Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+
+        $model = new LoginForm();
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            return $this->goBack();
+        }
+        return $this->render('index', [
+            'model' => $model,
+        ]);
     }
 
 }

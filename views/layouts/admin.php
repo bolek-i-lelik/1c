@@ -30,22 +30,34 @@ AppAsset::register($this);
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-4 bs-docs-sidebar hidden-xs">
             <center>
-            <ul class="nav nav-list bs-docs-sidenav affix">
-                <li><center><img src="/img/logo.png"><br><img src="/img/ramicon.png"></center><br/></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/firepred/index', true); ?>">ГОРЯЩИЕ ПРЕДЛОЖЕНИЯ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/products/index', true); ?>">ПРОДУКТЫ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/podpiski/index', true); ?>">ПОДПИСКИ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/uslugi/index', true); ?>">УСЛУГИ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/partners/index', true); ?>">НАШИ ПАРТНЕРЫ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/whywe/index', true); ?>">ПОЧЕМУ МЫ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/sertificates/index', true); ?>">СЕРТИФИКАТЫ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/preim/index', true); ?>">ПРЕИМУЩЕСТВА</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/comanda/index', true); ?>">КОМАНДА</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/otzivi/index', true); ?>">ОТЗЫВЫ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/tags/index', true); ?>">ОБЛАКО ТЭГОВ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/contacts/index', true); ?>">КОНТАКТЫ</a></li>
-
-            </ul>
+                <ul class="nav nav-list bs-docs-sidenav affix">
+                    <li><center><img src="/img/logo.png"><br><img src="/img/ramicon.png"></center><br/></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/firepred/index', true); ?>">ГОРЯЩИЕ ПРЕДЛОЖЕНИЯ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/products/index', true); ?>">ПРОДУКТЫ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/podpiski/index', true); ?>">ПОДПИСКИ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/uslugi/index', true); ?>">УСЛУГИ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/partners/index', true); ?>">НАШИ ПАРТНЕРЫ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/whywe/index', true); ?>">ПОЧЕМУ МЫ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/sertificates/index', true); ?>">СЕРТИФИКАТЫ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/preim/index', true); ?>">ПРЕИМУЩЕСТВА</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/comanda/index', true); ?>">КОМАНДА</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/otzivi/index', true); ?>">ОТЗЫВЫ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/tags/index', true); ?>">ОБЛАКО ТЭГОВ</a></li>
+                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/contacts/index', true); ?>">КОНТАКТЫ</a><img src="/img/borderMain.png"></li>
+                    <li class="hb-but hb-but-login hb-but-main">
+                        <!--<input id="hb-but-login" class="j_hcb j_off" type="checkbox">-->
+                        <label for="hb-but-login">
+                            <span class="hb-but-wrap">
+                                <form class="navbar-form" style="height: 50px;" action="/site/logout" method="post">
+                                    <input type="hidden" name="_csrf" value="<meta name="csrf-param" content="_csrf">
+                                    <meta name="csrf-token" content="d0JocWdMcnAzAyEyPgQZBg4wJh03IzEKIhAmOyZhSyE/AQk5JT0KHQ==">
+                                    <button type="submit" style="color:red;" class="btn btn-link"><b>Выйти</b></button>
+                                </form>
+                            </span>
+                        </label>
+                    </li>
+                    <li></li>
+                </ul>
             </center>
         </div>
         <div class="visible-xs">
