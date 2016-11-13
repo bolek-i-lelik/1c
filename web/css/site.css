@@ -2318,12 +2318,7 @@ width: 10px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x;
 }
-.carousel-caption {
-    right: 10%;
-    left: 53%;
-    /*padding-bottom: 30px;*/
-    top: 10%;
-    bottom: 40%;
+.textBlocMain {
     color: #a054bb;
     font-size: 24px;
     text-align: left;
@@ -2331,7 +2326,9 @@ width: 10px;
     font-family: "MuseoSansCyrl-900";
     font-weight: 700;
      }
-
+.textSlider {
+  left: 10%;
+}
 .carousel-caption-opis {
     right: 10%;
     left: 53%;
