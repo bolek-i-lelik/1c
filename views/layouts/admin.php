@@ -43,7 +43,7 @@ AppAsset::register($this);
                 <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/comanda/index', true); ?>">КОМАНДА</a></li>
                 <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/otzivi/index', true); ?>">ОТЗЫВЫ</a></li>
                 <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/tags/index', true); ?>">ОБЛАКО ТЭГОВ</a></li>
-                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/contacts/index', true); ?>">КОНТАКТЫ</a><img src="/img/borderMain.png"><br/><br/><br/><br/><br/><br/><br/></li>
+                <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/contacts/index', true); ?>">КОНТАКТЫ</a></li>
 
             </ul>
             </center>
