@@ -1913,7 +1913,7 @@ form.bs-docs-example {
 
 .bs-docs-sidenav {
   width: 190px;
-  margin: 30px 0 0;
+  margin: 5px 0 0;
   padding: 0;
   /*background-color: #fff;
   -webkit-border-radius: 6px;
@@ -1972,7 +1972,7 @@ form.bs-docs-example {
 width: 10px;
 }
 .bs-docs-sidenav.affix {
-  /*top: 30px;*/
+  top: 0px;
 }
 .bs-docs-sidenav.affix-bottom {
   position: absolute;
