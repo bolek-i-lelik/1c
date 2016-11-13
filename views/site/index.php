@@ -15,27 +15,42 @@ $this->title = 'My Yii Application';
                     <li data-target="#carousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="/img/slide.png">
-                                <div class="carousel-caption">
+                            <div class="item active" >
+                                <!--<img src="/img/slide.png">
+                                <!--<div class="carousel-caption">
+                                	Быстро и эффективно установим и настроим программы 1с
+                                </div>-->
+                                <div class="row">
+                                	<div></div>
                                 </div>
+                                <img src="/img/slide.png">
+						        <div class="carousel-caption">
+                                	Быстро и эффективно установим и настроим программы 1с
+                                </div>  
+                                <div class="carousel-caption-opis">
+                                	С учетом особенностей ваших бизнес-процессов и задач
+                                </div>                         
+						    </div>
+                            <div class="item" >
+                                <img src="/img/slide.png">
+						        <div class="carousel-caption">
+                                	Быстро и эффективно установим и настроим программы 1с
+                                </div> 
                             </div>
                             <div class="item">
                                 <img src="/img/slide.png">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="/img/slide.png">
-                                <div class="carousel-caption">
-                                </div>
+						        <div class="carousel-caption">
+                                	Быстро и эффективно установим и настроим программы 1с
+                                </div>  
                             </div>
                 </div>
                 <a class="left carousel-control" href="#carousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                    <img src="/img/prev.png" class="glyphicon glyphicon-chevron-left">
                 </a>
                 <a class="right carousel-control" href="#carousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+                    <img src="/img/nextOrang.png" class="glyphicon glyphicon-chevron-right">
                 </a>
             </div>
             <div style="min-height: 50px;"></div>
