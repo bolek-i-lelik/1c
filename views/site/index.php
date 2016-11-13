@@ -27,7 +27,9 @@ $this->title = 'My Yii Application';
                                     <div class="col-lg-6 textSlider">
                                         <div class="col-lg-12"><img src="/img/bord1.png"></div>
                                         <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
-                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
+                                        <div class="col-lg-12 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
+
                                     </div>
                                 </div>
                                 <!--<img src="/img/slide.png">
