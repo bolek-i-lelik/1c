@@ -5,7 +5,7 @@
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-
+<div class="row">
     <div class="col-lg-12"><a name="slider"><h2>Горячие предложения</h2></a>
     	
     	<div id="carousel" class="carousel slide">
@@ -75,6 +75,34 @@ $this->title = 'My Yii Application';
             </div>
             <div style="min-height: 50px;"></div>
     </div>
+</div>
+<!-- Программное обеспечение -->
+
+<div class="row">
+    <div class="col-lg-3">
+        <img src="/img/pr1.jpg">
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-6">
+
+    </div>
+</div>
+<!-- Подписки -->
+<div class="row">
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-6">
+
+    </div>
+</div>
+
+
     <div class="col-lg-12"><a  name="po"><h2>программное обеспечение</h2></a>
 		<img src="/img/po.png">
     </div>

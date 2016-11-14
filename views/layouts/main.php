@@ -60,7 +60,7 @@ AppAsset::register($this);
         </div>
         <div class="col-lg-3 col-md-3 col-sm-4 bs-docs-sidebar hidden-xs">
             <ul class="nav nav-list bs-docs-sidenav affix">
-                <li class = "logo"><img src="/img/logo.png"><br><img src="/img/ramicon.png"></li>
+                <li class = "logo"><center><img src="/img/logo.png"><br><img src="/img/ramicon.png"></center></li>
                 <li><img src="/img/borderMain.png"><a href="#slider">горячие <br>предложения</a></li>
                 <li><img src="/img/borderMain.png"><a href="#po"><i class="icon-chevron-right"></i>программное <br>обеспечение</a></li>
                 <li><img src="/img/borderMain.png"><a href="#podpiski"><i class="icon-chevron-right"></i>подписки</a></li>
@@ -72,7 +72,7 @@ AppAsset::register($this);
                 <li><img src="/img/borderMain.png"><a href="#command">команда</a></li>
                 <li><img src="/img/borderMain.png"><a href="#calc">калькулятор</a></li>
                 <li><img src="/img/borderMain.png"><a href="#cont">контакты</a><img src="/img/borderMain.png"></li>
-                <li class="tel"><img src="/img/tel.png">  <p>8(812)</p><p class="colorText">336-48-30</p></li>
+                <li class="tel"><center><img src="/img/tel.png">  <p>8(812)</p><p class="colorText">336-48-30</p></center></li>
                 <li> <a href="#" id="btn-ZZ">заказать звонок</a></li>
 
             </ul>
