@@ -29,8 +29,10 @@ $this->title = 'My Yii Application';
                                         <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
                                         <div closs="col-lg-12"><img src="/img/bord2.png"></div>
                                         <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
-                                        <div class="col-lg-6"><a href="#" id="btn-ZZSLD">заказать</a></div>
-                                        <div class="col-lg-6"><a href="#">Подробнее</a></div>
+                                        <div class="col-lg-8">
+                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
+                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
+                                        </div>
                                     </div>
                                 </div>
                                 <!--<img src="/img/slide.png">
@@ -46,9 +48,15 @@ $this->title = 'My Yii Application';
                                     <div class="col-lg-6">
                                         <img src="/img/slide.png">
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
-                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                    <div class="col-lg-6 textSlider" style="position:relative;">
+                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
+                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
+                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
+                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                        <div class="col-lg-8">
+                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
+                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -57,9 +65,15 @@ $this->title = 'My Yii Application';
                                     <div class="col-lg-6">
                                         <img src="/img/slide.png">
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="col-lg-12 textBlocMain">Быстро и эффективно установим и настроим программы 1с</div>
-                                        <div class="col-lg-12">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                    <div class="col-lg-6 textSlider" style="position:relative;">
+                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
+                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
+                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
+                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
+                                        <div class="col-lg-8">
+                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
+                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -82,35 +96,59 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row">
     <div class="col-lg-6" style="padding: 0;">
-        <table width="450">
+        <table class="poHover" width="450">
             <tr>
                 <td style="vertical-align: top;">
-                    <img src="/img/po/1.png" width="224" align="left" valign="top"> 
+                    <div class="sumProd">
+                        <img src="/img/po/1.png" width="224" align="left" valign="top" style="z-index:-3;"> 
+                        <p>от 10 000 000 <span class="rub">i</span></p>
+                        <p style="left: 5%;top: 40%;">подробнее -></p>
+                    </div>
                 </td>
                 <td rowspan="2">
-                    <img src="/img/po/24.png" width="224" height="388" align="right">
+                    <div class="sumProd">
+                        <img src="/img/po/24.png" width="224" height="388" align="right">
+                        <p style="right: 5%;">от 10 457 187<span class="rub">i</span></p>
+                        <p style="left: 50%;top: 90%;">подробнее-></p>
+                    </div>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: bottom;">
-                    <img src="/img/po/5.png" width="224" align="left" valign="bottom">
+                    <div class="sumProd"> 
+                        <img src="/img/po/5.png" width="224" align="left" valign="bottom">
+                        <p style="top:50%">от 10 000 000 <span class="rub">i</span></p>
+                        <p style="left: 5%;top: 90%;">подробнее -></p>
+                    </div>
                 </td>
             </tr>
         </table>
     </div>
     <div class="col-lg-6"  style="padding: 0;">
-        <table>
+        <table class="poHover">
             <tr>
                 <td colspan="2">
-                    <img src="/img/po/3.png" width="450">
+                    <div class="sumProd"> 
+                        <img src="/img/po/3.png" width="450">
+                        <p style="right: 5%;">от 10 000 000<span class="rub">i</span></p>
+                        <p style="left: 5%;top: 40%;">подробнее -></p>
+                    </div>
                 </td>
             </tr>
             <tr height="194">
                 <td style="vertical-align: bottom;">
-                    <img src="/img/po/6.png" width="223">
+                    <div class="sumProd"> 
+                        <img src="/img/po/6.png" width="223">
+                        <p style="right: 50%; top: 50%;">от 10 000 000<span class="rub">i</span></p>
+                        <p style="left: 5%;top: 90%;">подробнее -></p>
+                    </div>
                 </td>
                 <td style="vertical-align: bottom;">
-                    <img src="/img/po/4.png" width="223" align="right" height="191">
+                    <div class="sumProd"> 
+                        <img src="/img/po/4.png" width="223" align="right" height="191">
+                        <p style="top: 50%;right: 5%;">от 10 000 000<span class="rub">i</span></p>
+                        <p style="left: 50%;top: 90%;">подробнее-></p>
+                    </div>
                 </td>
             </tr>
         </table>

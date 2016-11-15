@@ -2216,6 +2216,9 @@ width: 10px;
 
     font-family: MuseoSansCyrl-900italic; 
     src: url(/img/MuseoSansCyrl-900italic.otf); 
+
+    font-family: rouble;
+    src: url(/img/rouble.otf);
    }
    a{
     font-family: "MuseoSansCyrl-700";
@@ -2266,7 +2269,7 @@ width: 10px;
 }
 .carousel-indicators {
     position: absolute;
-    bottom: 10px;
+    /*bottom: 10px;*/
     left: 57%;
     z-index: 15;
     width: 60%;
@@ -2358,6 +2361,8 @@ width: 10px;
       padding-left: 10%;
       padding-top: 5%;
       padding-bottom: 5%;
+      min-height: min-height: 450px;
+      position: relative;
      }
 
      #btn-ZZSLD{
@@ -2375,3 +2380,27 @@ width: 10px;
 
 
   }
+  .btnSlide{
+    position: absolute;
+    bottom: -40px;
+  }
+  #podr{
+    top: auto;
+    bottom: -66px;
+    right: 0px;
+  }
+  .sumProd p{
+   position: absolute;
+top: 0px;
+right: 50%;
+padding-right: 5%;
+padding-top: 10px;
+color: #fff;
+}
+.rub{
+  font-family: rouble;
+}
+.poHover td:hover{
+  background-color: rgba(117,93,126,.5);
+  z-index: 3;
+}
