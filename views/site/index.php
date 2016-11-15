@@ -5,8 +5,8 @@
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
+<div class="col-lg-12"><a ><h2>Горячие предложения</h2></a>
 <div class="row">
-    <div class="col-lg-12"><a name="slider"><h2>Горячие предложения</h2></a>
     	
     	<div id="carousel" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -77,71 +77,167 @@ $this->title = 'My Yii Application';
     </div>
 </div>
 <!-- Программное обеспечение -->
-
+<div class="col-lg-12">
+    <a  name="po"><h2>программное обеспечение</h2></a>
+</div>
 <div class="row">
-    <div class="col-lg-3">
-        <img src="/img/pr1.jpg">
+    <div class="col-lg-6" style="padding: 0;">
+        <table width="450">
+            <tr>
+                <td style="vertical-align: top;">
+                    <img src="/img/po/1.png" width="224" align="left" valign="top"> 
+                </td>
+                <td rowspan="2">
+                    <img src="/img/po/24.png" width="224" height="388" align="right">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: bottom;">
+                    <img src="/img/po/5.png" width="224" align="left" valign="bottom">
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="col-lg-3">
-
-    </div>
-    <div class="col-lg-6">
-
+    <div class="col-lg-6"  style="padding: 0;">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <img src="/img/po/3.png" width="450">
+                </td>
+            </tr>
+            <tr height="194">
+                <td style="vertical-align: bottom;">
+                    <img src="/img/po/6.png" width="223">
+                </td>
+                <td style="vertical-align: bottom;">
+                    <img src="/img/po/4.png" width="223" align="right" height="191">
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
 <!-- Подписки -->
+<div>
+    <a name="podpiski"><h2>подписки</h2></a>
+</div>
 <div class="row">
-    <div class="col-lg-3">
-
+    <div class="col-lg-6"  style="padding: 0;">
+        <table width="454" height="395">
+            <tr>
+                <td>
+                    <img src="/img/podpiski/1.png" width="225">
+                </td>
+                <td>
+                    <img src="/img/podpiski/2.png" width="225">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/img/podpiski/3.png" width="225">
+                </td>
+                <td>
+                    <img src="/img/podpiski/4.png" width="225">
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="col-lg-3">
-
+    <div class="col-lg-6"  style="padding: 0;">
+    <img src="/img/podpiski/5.png"  height="395">
     </div>
-    <div class="col-lg-6">
-
+</div>
+<div>
+    <a  name="uslugi"><h2>услуги</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-6" style="padding: 0;">
+        <img src="/img/uslugi/1.png" width="454">
+    </div>
+    <div class="col-lg-6" style="padding: 0;">
+        <img src="/img/uslugi/2.png" width="454">
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12" style="padding: 0;">
+        <img src="/img/uslugi/3.png" width="907">
     </div>
 </div>
 
-
-    <div class="col-lg-12"><a  name="po"><h2>программное обеспечение</h2></a>
-		<img src="/img/po.png">
+    
+	
+<div>
+    <a name="partnery"><h2>партнеры</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+    	<img src="/img/partnery.png" width="907">
     </div>
+</div>
+<div>
+    <a name="my"><h2>почему мы</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/my.png" width="907">
+    </div>
+</div>
 
-	<div><a name="podpiski"><h2>подписки</h2></a>
-		<img src="/img/podpis.png">
+	
+<div>
+    <a name="sertif"><h2>наши сертификаты</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/sert.png" width="907">
+    </div>
+</div>
+<div>
+    <a name="preim"><h2>наши преимущества</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/preim.png" width="907">
 	</div>
-	<div><a  name="uslugi"><h2>услуги</h2></a>
-	<img src="/img/uslugi.png">
+</div>
+<div>
+    <a name="command"><h2>наша команда</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/command.png" width="907">
 	</div>
-	<div><a name="partnery"><h2>партнеры</h2></a>
-	<img src="/img/partnery.png">
+</div>
+<div class="row">
+    <div class="col-lg-12">
+		<img src="/img/obrZ.png" width="300">
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/otz.png" width="907">
+    </div>
+</div>
+<div>
+    <a name="calc"><h2>калькулятор</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/calc.png" width="907">
 	</div>
-	<div><a name="my"><h2>почему мы</h2></a>
-	<img src="/img/my.png">
+</div>
+<div class="row">
+    <div class="col-lg-12">
+		<img src="/img/bp.png" width="907">
 	</div>
-	<div><a name="sertif"><h2>наши сертификаты</h2></a>
-	<img src="/img/sert.png">
+</div>
+<div>
+    <a name="cont"><h2>контакты</h2></a>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+	   <img src="/img/cont.png" width="907">
 	</div>
-	<div><a name="preim"><h2>наши преимущества</h2></a>
-	<img src="/img/preim.png">
-	</div>
-	<div><a name="command"><h2>наша команда</h2></a>
-	<img src="/img/command.png">
-	</div>
-	<div>
-		<img src="/img/obrZ.png"><img src="/img/otz.png">
-	</div>
-
-	<div><a name="calc"><h2>калькулятор</h2></a>
-	<img src="/img/calc.png">
-	</div>
-	<div>
-		<img src="/img/bp.png">
-	</div>
-	<div><a name="cont"><h2>контакты</h2></a>
-	<img src="/img/cont.png">
-	</div>
-	<div>
-		<img src="/img/map.png">
+</div>
+<div class="row">
+	<div class="col-lg-12">
+		<img src="/img/map.png" width="907">
 	</div>
 </div>
