@@ -92,7 +92,7 @@ $this->title = 'My Yii Application';
 </div>
 <!-- Программное обеспечение -->
 <div class="col-lg-12">
-    <a  name="po"><h2>программное обеспечение</h2></a>
+    <a name="po"><h2>программное обеспечение</h2></a>
 </div>
 <div class="row">
     <div class="col-lg-6" style="padding: 0;">
@@ -101,15 +101,15 @@ $this->title = 'My Yii Application';
                 <td style="vertical-align: top;">
                     <div class="sumProd">
                         <img src="/img/po/1.png" width="224" align="left" valign="top" style="z-index:-3;"> 
-                        <p>от 10 000 000 <span class="rub">i</span></p>
-                        <p style="left: 5%;top: 40%;">подробнее -></p>
+                        <p class="price">от 10 000 000 <span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 15px;top: 43%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
                 <td rowspan="2">
                     <div class="sumProd">
                         <img src="/img/po/24.png" width="224" height="388" align="right">
-                        <p style="right: 5%;">от 10 457 187<span class="rub">i</span></p>
-                        <p style="left: 50%;top: 90%;">подробнее-></p>
+                        <p class="price" style="right: 5%;">от 10 457 187<span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 52%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
             </tr>
@@ -117,8 +117,8 @@ $this->title = 'My Yii Application';
                 <td style="vertical-align: bottom;">
                     <div class="sumProd"> 
                         <img src="/img/po/5.png" width="224" align="left" valign="bottom">
-                        <p style="top:50%">от 10 000 000 <span class="rub">i</span></p>
-                        <p style="left: 5%;top: 90%;">подробнее -></p>
+                        <p class="price" style="top:50%">от 10 000 000 <span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 2%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
             </tr>
@@ -130,8 +130,8 @@ $this->title = 'My Yii Application';
                 <td colspan="2">
                     <div class="sumProd"> 
                         <img src="/img/po/3.png" width="450">
-                        <p style="right: 5%;">от 10 000 000<span class="rub">i</span></p>
-                        <p style="left: 5%;top: 40%;">подробнее -></p>
+                        <p class="price" style="right: 5%;">от 10 000 000<span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 2%;top: 43%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
             </tr>
@@ -139,21 +139,24 @@ $this->title = 'My Yii Application';
                 <td style="vertical-align: bottom;">
                     <div class="sumProd"> 
                         <img src="/img/po/6.png" width="223">
-                        <p style="right: 50%; top: 50%;">от 10 000 000<span class="rub">i</span></p>
-                        <p style="left: 5%;top: 90%;">подробнее -></p>
+                        <p class="price" style="right: 50%; top: 50%;">от 10 000 000<span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 2%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
                 <td style="vertical-align: bottom;">
                     <div class="sumProd"> 
                         <img src="/img/po/4.png" width="223" align="right" height="191">
-                        <p style="top: 50%;right: 5%;">от 10 000 000<span class="rub">i</span></p>
-                        <p style="left: 50%;top: 90%;">подробнее-></p>
+                        <p class="price" style="top: 50%;right: 5%;">от 10 000 000<span class="fa fa-sm fa-rub"></p>
+                        <p class="link" style="left: 52%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
                     </div>
                 </td>
             </tr>
         </table>
     </div>
 </div>
+<br/>
+<br/>
+<center><div style="width: 300px;"><p style="border-bottom: 1px dashed #000080;">Полный список программного обеспечеия <span class="fa fa-sm fa-long-arrow-down"></p></div></center>
 <!-- Подписки -->
 <div>
     <a name="podpiski"><h2>подписки</h2></a>
@@ -164,23 +167,43 @@ $this->title = 'My Yii Application';
             <tr>
                 <td>
                     <img src="/img/podpiski/1.png" width="225">
+                    <p class="price" style="top: 0%;right: 50%;">от 7 000 <span class="fa fa-sm fa-rub"> / 6 мес</p>
+                    <center><p class="its" style="top:20%;right: 70%;">ИТС</br>Техно</p><center>
+                    <p class="link" style="left: 22%;top: 43%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
+                    <div class="btn-zakaz" style="left: 3%;top: 41%;"><p class="btn-text">Оформить</p></div>
                 </td>
                 <td>
                     <img src="/img/podpiski/2.png" width="225">
+                    <p class="price" style="top: 0%;right: 0%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+                    <center><p class="its" style="top:20%;right: 20%;">ИТС</br>Бюджет</p><center>
+                    <p class="link" style="left: 72%;top: 43%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
+                    <div class="btn-zakaz" style="left: 53%;top: 41%;"><p class="btn-text">Оформить</p></div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <img src="/img/podpiski/3.png" width="225">
+                    <p class="price" style="top: 50%;right: 50%;">от 10 000 <span class="fa fa-sm fa-rub"></p>
+                    <center><p class="its" style="top:70%;right: 70%;">ИТС</br>Проф</p><center>
+                    <p class="link" style="left: 22%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
+                    <div class="btn-zakaz" style="left: 3%;top: 91%;"><p class="btn-text">Оформить</p></div>
                 </td>
                 <td>
                     <img src="/img/podpiski/4.png" width="225">
+                    <p class="price" style="top: 50%;right: 0%;">от 14 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+                    <center><p class="its" style="top:70%;right: 20%;">ИТС</br>Бюджет</br>проф</p><center>
+                    <p class="link" style="left: 72%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
+                    <div class="btn-zakaz" style="left: 53%;top: 91%;"><p class="btn-text">Оформить</p></div>
                 </td>
             </tr>
         </table>
     </div>
     <div class="col-lg-6"  style="padding: 0;">
     <img src="/img/podpiski/5.png"  height="395">
+    <p class="price" style="top: 0%;right: 0%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+    <center><p class="its" style="top:45%;right: 40%;">ИТС</br>Строительство</p><center>
+    <p class="link" style="left: 70%;top: 93%;">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></p>
+    <div class="btn-zakaz" style="left: 3%;top: 91%;"><p class="btn-text">Оформить</p></div>
     </div>
 </div>
 <div>

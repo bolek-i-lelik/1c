@@ -2389,18 +2389,49 @@ width: 10px;
     bottom: -66px;
     right: 0px;
   }
-  .sumProd p{
-   position: absolute;
-top: 0px;
-right: 50%;
-padding-right: 5%;
-padding-top: 10px;
-color: #fff;
-}
-.rub{
-  font-family: rouble;
-}
-.poHover td:hover{
-  background-color: rgba(117,93,126,.5);
-  z-index: 3;
-}
+  .price{
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    padding-right: 5%;
+    padding-top: 10px;
+    color: #fff;
+  }
+
+  .link{
+    width:150px;
+    position: absolute;
+    color: #fff;
+    left: 2%;
+    top: 93%;
+  }
+
+  .rub{
+    font-family: rouble;
+  }
+  .poHover td:hover{
+    background-color: rgba(117,93,126,.5);
+    z-index: 3;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-left: -30px;
+  }
+
+  .its{
+    position: absolute;
+    color:#fff;
+  }
+
+  .btn-zakaz{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: #fff;
+  }
+
+  .btn-text{
+    padding-top: 5%;
+  }

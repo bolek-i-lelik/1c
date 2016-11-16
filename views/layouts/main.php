@@ -18,6 +18,9 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
 
     <?php $this->head() ?>
+    
+<script src="https://use.fontawesome.com/e2d41fd859.js"></script>
+
 </head>
 <body>
 <?php $this->beginBody() ?>
