@@ -2188,34 +2188,34 @@ width: 10px;
 }
 @font-face {
     font-family: MuseoSansCyrl-100; 
-    src: url(/img/MuseoSansCyrl-100.otf); 
+    src: url(/img/museosanscyrl100.ttf), url(/img/MuseoSansCyrl-100.otf); 
 
     font-family: MuseoSansCyrl-100italic; 
-    src: url(/img/MuseoSansCyrl-100italic.otf); 
+    src: url(/img/museosanscyrl100italic.ttf), url(/img/MuseoSansCyrl-100italic.otf); 
 
     font-family: MuseoSansCyrl-300; 
-    src: url(/img/MuseoSansCyrl-300.otf); 
+    src: url(/img/museosanscyrl300.ttf), url(/img/MuseoSansCyrl-300.otf); 
 
     font-family: MuseoSansCyrl-300italic; 
-    src: url(/img/MuseoSansCyrl-300italic.otf); 
+    src: url(/img/museosanscyrl300italic.ttf), url(/img/MuseoSansCyrl-300italic.otf); 
 
     font-family: MuseoSansCyrl-500; 
-    src: url(/img/MuseoSansCyrl-500.otf); 
+    src: url(/img/museosanscyrl500.ttf), url(/img/MuseoSansCyrl-500.otf); 
 
     font-family: MuseoSansCyrl-500italic; 
-    src: url(/img/MuseoSansCyrl-500italic.otf); 
+    src: url(/img/museosanscyrl500italic.ttf), url(/img/MuseoSansCyrl-500italic.otf); 
 
     font-family: MuseoSansCyrl-700; 
-    src: url(/img/MuseoSansCyrl-700.otf); 
+    src: url(/img/museosanscyrl700.ttf), url(/img/MuseoSansCyrl-700.otf); 
 
     font-family: MuseoSansCyrl-700italic; 
-    src: url(/img/MuseoSansCyrl-700italic.otf); 
+    src: url(/img/museosanscyrl700italic.ttf), url(/img/MuseoSansCyrl-700italic.otf); 
 
     font-family: MuseoSansCyrl-900; 
-    src: url(/img/MuseoSansCyrl-900.otf); 
+    src: url(/img/museosanscyrl900.ttf), url(/img/MuseoSansCyrl-900.otf); 
 
     font-family: MuseoSansCyrl-900italic; 
-    src: url(/img/MuseoSansCyrl-900italic.otf); 
+    src: url(/img/museosanscyrl900italic.ttf), url(/img/MuseoSansCyrl-900italic.otf); 
 
     font-family: rouble;
     src: url(/img/rouble.otf);
@@ -2392,7 +2392,7 @@ width: 10px;
   .price{
     position: absolute;
     top: 0px;
-    right: 50%;
+    right: 0px;
     padding-right: 5%;
     padding-top: 10px;
     color: #fff;
@@ -2409,10 +2409,10 @@ width: 10px;
   .rub{
     font-family: rouble;
   }
-  .poHover td:hover{
+  /*.poHover td:hover{
     background-color: rgba(117,93,126,.5);
     z-index: 3;
-  }
+  }*/
 
   h2 {
     font-size: 16px;
@@ -2428,10 +2428,30 @@ width: 10px;
     position: absolute;
     width: 100px;
     height: 25px;
-    background-color: red;
+    background-color: #ff6d5a;
     color: #fff;
   }
 
   .btn-text{
     padding-top: 5%;
+    background-color: #ff6d5a;
+  }
+  .hv{
+    z-index: 1;
+    background-color: rgba(117,93,126,.0001);
+  }
+  .hv:hover{
+    z-index: 1;
+    background-color: rgba(117,93,126,.5);
+  }
+    .hv-next{
+    z-index: 1;
+    background-color: rgba(112,162,174,.0001);
+  }
+  .hv-next:hover{
+    z-index: 1;
+    background-color: rgba(112,162,174,.5);
+  }
+  td div{
+    position: relative;
   }
