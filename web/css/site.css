@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "MuseoSansCyrl-900";
+    src: url("../fonts/MuseoSansCyrillic/MuseoSansRegular.eot");
+    src: url("../fonts/MuseoSansCyrillic/MuseoSansCyrl-900.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 html,
 body {
     height: 100%;
@@ -2417,6 +2425,7 @@ width: 10px;
   h2 {
     font-size: 16px;
     margin-left: -30px;
+    font-family: "MuseoSansCyrl-900";
   }
 
   .its{
