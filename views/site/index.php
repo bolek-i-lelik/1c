@@ -240,7 +240,7 @@ $this->title = 'My Yii Application';
         <img class="uslBord" src="">
         <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
-    <div class="col-lg-6  usl">
+    <div class="col-lg-6  usl" style="width: 450px;">
         <img src="/img/uslugi/2.png" width="454">
         <div class="uslName" style="height:50px;">Консультирование</div>
         <img class="uslBord" src="">
