@@ -233,17 +233,26 @@ $this->title = 'My Yii Application';
 <div>
     <a  name="uslugi"><h2>услуги</h2></a>
 </div>
-<div class="row">
-    <div class="col-lg-6" style="padding: 0;">
+<div class="row uslDiv">
+    <div class="col-lg-6 usl" style="width:453px">
         <img src="/img/uslugi/1.png" width="454">
+        <div class="uslName" style="height:50px;">Поддержка</div>
+        <img class="uslBord" src="">
+        <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
-    <div class="col-lg-6" style="padding: 0;">
+    <div class="col-lg-6  usl">
         <img src="/img/uslugi/2.png" width="454">
+        <div class="uslName" style="height:50px;">Консультирование</div>
+        <img class="uslBord" src="">
+        <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-12" style="padding: 0;">
-        <img src="/img/uslugi/3.png" width="907">
+<div class="row uslDiv">
+    <div class="col-lg-12 usl" >
+        <img src="/img/15.png" width="907">
+        <div class="uslName" style="height:70px;width: 425px;line-height: 1;">Разработка на базе программ 1с Предприятие 8</div>
+        <img class="uslBord" src="">
+        <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
 </div>
 
