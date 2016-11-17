@@ -2638,3 +2638,24 @@ font-size: 14px;
     height: 400px;
 }
 }
+/*.chevronPart i{
+  background-image: url(/img/shevronPart.png);
+  float: right;
+margin-top: 2px;
+margin-right: -6px;
+opacity: .25;
+}*/
+.chevronPart ul{
+  list-style-image: url(/img/shevronPart.png);
+}
+.chevronPart{
+  /*margin: 20px;*/
+  padding: 20px;
+  font-size: 14px;
+  list-style-image: url(/img/shevronPart.png);
+
+}
+.chevronPart li{
+margin-top: 10px;
+margin-bottom: 10px;
+  }

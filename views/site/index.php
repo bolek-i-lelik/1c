@@ -259,19 +259,44 @@ $this->title = 'My Yii Application';
     
 	
 <div>
-    <a name="partnery"><h2>партнеры</h2></a><br>
-    <div class="col-lg-12">НАШИ ПАРТНЕРЫ</div>
+    <a name="partnery"><h2>наши партнеры</h2></a><br>
 </div>
 <div class="row">
     <div class="col-lg-12">
-        <div class="col-lg-4">
-            
+        <div class="col-lg-4 col-xs-12">
+            <div class="col-lg-12">
+                <img src="/img/part1.png">
+                <div class="col-lg-12">
+                    <ul class="chevronPart">
+                        <li><i></i>Перешли на бухгалтерию 3,0</li>
+                        <li><i></i>Настроили обмен данных</li>
+                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
+                        <li><i></i>Налажена электронная отчетность</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4">
-            
+        <div class="col-lg-4 col-xs-12">
+                <img src="/img/part2.png">            
+                <div class="col-lg-12">
+                    <ul class="chevronPart">
+                        <li><i></i>Перешли на бухгалтерию 3,0</li>
+                        <li><i></i>Настроили обмен данных</li>
+                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
+                        <li><i></i>Налажена электронная отчетность</li>
+                    </ul>
+                </div>
         </div>
-        <div class="col-lg-4">
-            
+        <div class="col-lg-4 col-xs-12">
+                <img src="/img/part3.png" style="padding-top: 37px;">            
+                <div class="col-lg-12">
+                    <ul class="chevronPart">
+                        <li><i></i>Перешли на бухгалтерию 3,0</li>
+                        <li><i></i>Настроили обмен данных</li>
+                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
+                        <li><i></i>Налажена электронная отчетность</li>
+                    </ul>
+                </div>
         </div>
     	
     </div>
