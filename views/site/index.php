@@ -298,7 +298,15 @@ $this->title = 'My Yii Application';
                     </ul>
                 </div>
         </div>
-    	
+
+    	<div class="col-lg-12 dispNone">
+            <center>
+                
+                    <img src="/img/left.png">
+                    <img src="/img/nextOrang.png">
+                
+            </center>   
+        </div>
     </div>
 </div>
 <div>
@@ -316,8 +324,24 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row">
     <div class="col-lg-12">
-        <img src="/img/sert.png" width="907">
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img src="/img/sert1.png" style="margin:20px;">
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img src="/img/sert1.png" style="margin:20px;">
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"  style="margin:20px;"></div>
+        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"  style="margin:20px;"></div>
     </div>
+            <div class="col-lg-12 dispNone">
+            <br>
+            <center>
+                
+                    <img src="/img/left.png">
+                    <img src="/img/nextOrang.png">
+                
+            </center>   
+        </div>
 </div>
 <div>
     <a name="preim"><h2>наши преимущества</h2></a>
