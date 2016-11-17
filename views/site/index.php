@@ -247,7 +247,7 @@ $this->title = 'My Yii Application';
         <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
 </div>
-<div class="row uslDiv">
+<div class="row uslDiv dispNone">
     <div class="col-lg-12 usl" >
         <img src="/img/15.png" width="907">
         <div class="uslName" style="height:70px;width: 425px;line-height: 1;">Разработка на базе программ 1с Предприятие 8</div>
@@ -259,11 +259,21 @@ $this->title = 'My Yii Application';
     
 	
 <div>
-    <a name="partnery"><h2>партнеры</h2></a>
+    <a name="partnery"><h2>партнеры</h2></a><br>
+    <div class="col-lg-12">НАШИ ПАРТНЕРЫ</div>
 </div>
 <div class="row">
     <div class="col-lg-12">
-    	<img src="/img/partnery.png" width="907">
+        <div class="col-lg-4">
+            
+        </div>
+        <div class="col-lg-4">
+            
+        </div>
+        <div class="col-lg-4">
+            
+        </div>
+    	
     </div>
 </div>
 <div>
