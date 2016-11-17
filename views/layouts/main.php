@@ -43,7 +43,7 @@ AppAsset::register($this);
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             
-                            <li><img src="/img/borderMain.png"><a href="#slider">горячие <br>предложения</a></li>
+                            <li class="menutext"><img src="/img/borderMain.png"><a href="#slider">горячие <br>предложения</a></li>
                             <li><img src="/img/borderMain.png"><a href="#po"><i class="icon-chevron-right"></i>программное <br>обеспечение</a></li>
                             <li><img src="/img/borderMain.png"><a href="#podpiski"><i class="icon-chevron-right"></i>подписки</a></li>
                             <li><img src="/img/borderMain.png"><a href="#uslugi"><i class="icon-chevron-right"></i>услуги</a></li>
