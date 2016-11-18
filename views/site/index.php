@@ -271,32 +271,32 @@ $this->title = 'My Yii Application';
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Попробовали наиболее эффективные решения для своих целей</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Налажена электронная отчетность</p>
@@ -312,32 +312,32 @@ $this->title = 'My Yii Application';
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Попробовали наиболее эффективные решения для своих целей</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Налажена электронная отчетность</p>
@@ -353,32 +353,32 @@ $this->title = 'My Yii Application';
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Попробовали наиболее эффективные решения для своих целей</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="/img/shevronPart.png">
+                        <td style="vertical-align: bottom;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
                             <p>Налажена электронная отчетность</p>
