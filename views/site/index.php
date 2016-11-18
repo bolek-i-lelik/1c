@@ -264,19 +264,129 @@ $this->title = 'My Yii Application';
 <div class="row">
     <div class="col-lg-12">
         <div class="col-lg-4 col-xs-12">
-            <div class="col-lg-12">
-                <img src="/img/part1.png">
-                <div class="col-lg-12">
-                    <ul class="chevronPart">
-                        <li><i></i>Перешли на бухгалтерию 3,0</li>
-                        <li><i></i>Настроили обмен данных</li>
-                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
-                        <li><i></i>Налажена электронная отчетность</li>
-                    </ul>
-                </div>
-            </div>
+                <table class="chevronPart">
+                    <tr>
+                        <td colspan="2">
+                            <img src="/img/part1.png" style="margin-bottom: 20px;">            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Перешли на бухгалтерию 3,0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Настроили обмен данных</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Налажена электронная отчетность</p>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+                <div class="col-lg-4 col-xs-12">
+                <table class="chevronPart">
+                    <tr>
+                        <td colspan="2">
+                            <img src="/img/part2.png" style="margin-bottom: 20px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Перешли на бухгалтерию 3,0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Настроили обмен данных</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Налажена электронная отчетность</p>
+                        </td>
+                    </tr>
+                </table>
         </div>
         <div class="col-lg-4 col-xs-12">
+                <table class="chevronPart">
+                    <tr>
+                        <td colspan="2">
+                            <img src="/img/part3.png" style="padding-top: 37px; margin-bottom: 20px;">            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Перешли на бухгалтерию 3,0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Настроили обмен данных</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/img/shevronPart.png">
+                        </td>
+                        <td>
+                            <p>Налажена электронная отчетность</p>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+ <!--       <div class="col-lg-4 col-xs-12">
                 <img src="/img/part2.png">            
                 <div class="col-lg-12">
                     <ul class="chevronPart">
@@ -297,8 +407,8 @@ $this->title = 'My Yii Application';
                         <li><i></i>Налажена электронная отчетность</li>
                     </ul>
                 </div>
-        </div>
-
+        </div>-->
+        <div class="col-lg-12" style="height:30px;"></div>
     	<div class="col-lg-12 dispNone">
             <center>
                 
@@ -325,13 +435,13 @@ $this->title = 'My Yii Application';
 <div class="row">
     <div class="col-lg-12">
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img src="/img/sert1.png" style="margin:20px;">
+            <img src="/img/sert1.png">
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img src="/img/sert1.png" style="margin:20px;">
+            <img src="/img/sert1.png">
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"  style="margin:20px;"></div>
-        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"  style="margin:20px;"></div>
+        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"></div>
+        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"></div>
     </div>
             <div class="col-lg-12 dispNone">
             <br>

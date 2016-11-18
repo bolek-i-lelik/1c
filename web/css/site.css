@@ -2648,11 +2648,14 @@ opacity: .25;
 .chevronPart ul{
   list-style-image: url(/img/shevronPart.png);
 }
-.chevronPart{
+.chevronPart p{
   /*margin: 20px;*/
   padding: 20px;
   font-size: 14px;
-  list-style-image: url(/img/shevronPart.png);
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  /*list-style-image: url(/img/shevronPart.png);*/
 
 }
 .chevronPart li{
