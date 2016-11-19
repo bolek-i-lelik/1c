@@ -458,7 +458,7 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row advantages">
     <div class="col-lg-12">
-        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -472,12 +472,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Прозрачная и открытая</span> <span>система работы</span></div>
+                        <span class="mainText">Прозрачная и открытая </span> <span>система работы</span></div>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -491,12 +491,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Бесплатный выезд</span> <span>специалиста к вам в офис</span></div>
+                        <span class="mainText">Бесплатный выезд </span> <span>специалиста к вам в офис</span></div>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -510,13 +510,13 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Четкое соблюдение условий</span> <span>договора</span></div>
+                        <span class="mainText">Четкое соблюдение условий </span> <span>договора</span></div>
                     </td>
                 </tr>
             </table>
         </div> 
         <!--------------------------------------------------------------------------------------------------------- -->           
-        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4 col-sm-6  col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -530,12 +530,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Оперативно внедряем</span> <span>эффективные наработки, не тратя время на поиск решения</span></div>
+                        <span class="mainText">Оперативно внедряем </span> <span>эффективные наработки, не тратя время на поиск решения</span></div>
                     </td>
                 </tr>
             </table>
         </div>  
-        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -549,12 +549,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Ведение листа учета</span> <span>рабочего времени</span></div>
+                        <span class="mainText">Ведение листа учета </span> <span>рабочего времени</span></div>
                     </td>
                 </tr>
             </table>
         </div>  
-                <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+                <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
             <table>
                 <tr>
                     <td>
@@ -568,17 +568,117 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком</span><span class="mainText">акта выполненых работ</span> </div>
+                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком </span><span class="mainText">акта выполненых работ</span> </div>
                     </td>
                 </tr>
             </table>
         </div> 
     </div> 
 </div>
-<div class="row">
-    <div class="col-lg-12">
-        <img src="/img/command.png" width="907">
+<div>
+    <a name="preim"><h2>наша команда</h2></a>
+</div>
+<div class="row" >
+    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
+        <!--<img src="/img/command.png" width="907">-->
 	</div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
+        <table>
+            <tr>
+                <td>
+                    <!--<img src="/img/Foto1.png" class="fotoRab">-->
+                    <div class="fotoRab" style="background: url(/img/Foto1.png) no-repeat center center;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabName">
+                    Валентин Викторович ТКАЧЕНКО
+                </td>
+            </tr>
+            <tr>
+                <td class="rabPost">
+                    <b>Главный менеджер по продажам</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabMail">
+                    <b>valentin@rumicon.ru</b>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
+        <table>
+            <tr>
+                <td>
+                    <div class="fotoRab" style="background: url(/img/Foto2.png) no-repeat center center;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabName">
+                    Валентин Викторович ТКАЧЕНКО
+                </td>
+            </tr>
+            <tr>
+                <td class="rabPost">
+                    <b>Главный менеджер по продажам</b>
+                </td>
+            </tr>            
+            <tr>
+                <td class="rabMail">
+                    <b>valentin@rumicon.ru</b>
+                </td>
+            </tr>            
+        </table>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
+        <table>
+            <tr>
+                <td>
+                    <div class="fotoRab" style="background: url(/img/Foto3.png) no-repeat center center;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabName">
+                    Валентин Викторович ТКАЧЕНКО
+                </td>
+            </tr>                
+            <tr>
+                <td class="rabPost">
+                    <b>Главный менеджер по продажам</b>
+                </td>
+            </tr>   
+            <tr>
+                <td class="rabMail">
+                    <b>valentin@rumicon.ru</b>
+                </td>
+            </tr>                     
+        </table>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
+        <table>
+            <tr>
+                <td>
+                    <div class="fotoRab" style="background: url(/img/Foto4.png) no-repeat center center;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabName">
+                    Валентин Викторович ТКАЧЕНКО
+                </td>
+            </tr> 
+            <tr>
+                <td class="rabPost">
+                    <b>Главный менеджер по продажам</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="rabMail">
+                    <b>valentin@rumicon.ru</b>
+                </td>
+            </tr>            
+        </table>
+    </div>
 </div>
 <div class="row">
     <div class="col-lg-12">
