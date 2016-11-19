@@ -2709,3 +2709,31 @@ margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
   }
+ .formCall input[type="text"]{
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #cccccc;
+  color: #a8a8a8;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  font-size: 14px;
+ }
+ input[type="text"]:focus {
+  color: #000000;
+  border: 1px solid #a8a8a8
+}
+/*button*/
+.formCall input[type="button"]{
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ff6d5a;
+  color: #fff;
+  background-color: #ff6d5a;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  font-size: 16px;
+ }

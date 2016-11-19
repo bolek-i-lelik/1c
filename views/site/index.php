@@ -679,13 +679,48 @@ $this->title = 'My Yii Application';
             </tr>            
         </table>
     </div>
+        <div class="col-lg-12 dispNone">
+            <br>
+            <center>
+                
+                    <img src="/img/left.png">
+                    <img src="/img/nextOrang.png">
+                
+            </center>   
+        </div>
 </div>
-<div class="row">
-    <div class="col-lg-12">
-		<img src="/img/obrZ.png" width="300">
-</div>
-<div class="row">
-    <div class="col-lg-12">
+<div class="row formCall">
+    <div class="col-lg-4">
+        <div class="col-lg-12">
+            <h2 style="margin-left: 0px;">обратный звонок</h2>
+        </div>
+        <div class="col-lg-12">
+            <img style="margin-bottom: 50px;" src="/img/polosa.png">
+        </div>
+        <div class="col-lg-12" style="margin-bottom: 20px;">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="col-lg-8">
+                    <b>ЛИНИЯ КОНСУЛЬТАЦИЙ</b>
+                </div>
+                <div class="col-lg-4" style="text-align: right;">
+                    <img src="/img/imgTel.png">
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <form action="#">
+                <input type="text" name="nameForCall" value="     Ваше имя">
+                <input type="text" name="forCall" value="     Телефон"><br>
+                <input type="button" name="buttonForCall" value="заказать звонок">
+            </form>
+        </div>
+        <div class="col-lg-2"></div>
+        <!--<img src="/img/obrZ.png" width="300">-->
+    </div>
+    <div class="col-lg-8">
         <img src="/img/otz.png" width="907">
     </div>
 </div>
