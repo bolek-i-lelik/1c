@@ -753,8 +753,41 @@ $this->title = 'My Yii Application';
 	</div>
 </div>
 <div class="row">
-    <div class="col-lg-12">
-		<img src="/img/bp.png" width="907">
+    <div class="col-lg-12 tags" >
+        <!--<ul class="tags">
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+            <li><a href="#">#teg</a></li>
+        </ul>-->
+		<!--<img src="/img/bp.png" width="907">-->
+        <a href="#">#CRM и управление продажами</a>
+        <a href="#">#Производство</a>
+        <a href="#">#Импорт</a>
+        <a href="#">#Бухгалтерский и налоговый учет</a>
+        <a href="#">#Бюджетирование</a>
+        <a href="#">#Поставки и запасы</a>
+        <a href="#">#МСФО и консолидация</a>
+        <a href="#">#Импорт</a>
+        <a href="#">#Импорт</a>
+        <a href="#">#Учет затрат</a>
+        <a href="#">#Учет затрат</a>
+        <a href="#">#Бухгалтерия</a>
+        <a href="#">#Бюджетирование</a>
+        <a href="#">#Импорт</a>
+        <a href="#">#Поставки и запасы</a>
 	</div>
 </div>
 <div>
