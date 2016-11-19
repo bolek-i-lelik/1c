@@ -456,13 +456,124 @@ $this->title = 'My Yii Application';
 <div>
     <a name="preim"><h2>наши преимущества</h2></a>
 </div>
-<div class="row">
+<div class="row advantages">
     <div class="col-lg-12">
-        <img src="/img/preim.png" width="907">
-	</div>
-</div>
-<div>
-    <a name="command"><h2>наша команда</h2></a>
+        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo21.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span class="mainText">Прозрачная и открытая</span> <span>система работы</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo22.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span class="mainText">Бесплатный выезд</span> <span>специалиста к вам в офис</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo23.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span class="mainText">Четкое соблюдение условий</span> <span>договора</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div> 
+        <!--------------------------------------------------------------------------------------------------------- -->           
+        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo24.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span class="mainText">Оперативно внедряем</span> <span>эффективные наработки, не тратя время на поиск решения</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>  
+        <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo25.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span class="mainText">Ведение листа учета</span> <span>рабочего времени</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>  
+                <div class="col-lg-4 col-md-4 col-xs-12" style="height:250px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/img/polosa.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="advantagesImg">
+                        <img src="/img/logo26.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком</span><span class="mainText">акта выполненых работ</span> </div>
+                    </td>
+                </tr>
+            </table>
+        </div> 
+    </div> 
 </div>
 <div class="row">
     <div class="col-lg-12">

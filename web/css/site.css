@@ -2663,3 +2663,25 @@ opacity: .25;
 margin-top: 10px;
 margin-bottom: 10px;
   }
+
+  .mainText{
+    color: #a054bb;
+
+  }
+  table{
+    font-size: 14px;
+  }
+  .advantages td{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    min-height: 105px;
+  }
+  .advantagesImg{
+    height: 105px;
+  } 
+  .advantages td div{
+    width: 200px;
+  } 
+  .advantages table{
+    margin-bottom: 50px;
+  }
