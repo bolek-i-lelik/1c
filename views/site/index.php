@@ -721,7 +721,27 @@ $this->title = 'My Yii Application';
         <!--<img src="/img/obrZ.png" width="300">-->
     </div>
     <div class="col-lg-8">
-        <img src="/img/otz.png" width="907">
+        <div class="col-lg-12">
+            <h2 style="margin-left: 0px;">отзывы наших клиентов</h2>
+        </div>
+        <div class="col-lg-12 otz" style="padding: 20px;">
+            <div class="col-lg-12">
+                <div class="col-lg-4" style="background: url(/img/otz1.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
+                <div class="col-lg-4" style="background: url(/img/otz2.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
+                <div class="col-lg-4" style="background: url(/img/otz3.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
+            </div>
+            <div class="col-lg-12 dispNone">
+                <br>
+                <center>
+                    
+                        <img src="/img/fffOld.png">
+                        <img src="/img/fffNext.png">
+                    
+                </center>   
+            </div>
+        </div>
+
+    <!--    <img src="/img/otz.png" width="907">-->
     </div>
 </div>
 <div>
