@@ -91,7 +91,7 @@ $this->title = 'My Yii Application';
     </div>
 </div>
 <!-- Программное обеспечение -->
-<div class="col-lg-12">
+<div class="col-lg-12"  style="padding: 0;">
     <a name="po"><h2>программное обеспечение</h2></a>
 </div>
 <div class="row">
@@ -262,126 +262,132 @@ $this->title = 'My Yii Application';
     <a name="partnery"><h2>наши партнеры</h2></a><br>
 </div>
 <div class="row">
-    <div class="col-lg-12">
-        <div class="col-lg-4 col-xs-12">
+    <div class="col-lg-12"  style="padding: 0;">
+        <div class="col-lg-4 col-xs-12"  style="padding: 0;">
                 <table class="chevronPart">
                     <tr>
-                        <td colspan="2">
-                            <img src="/img/part1.png" style="margin-bottom: 20px;">            
+                        <td colspan="2" height="150px">
+                            <center>
+                            <img src="/img/part1.png" style="margin-bottom: 20px;"> 
+                            </center>    
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
+                            <img src="/img/shevronPart.png">
                         </td>
-                        <td>
-                            <p>Перешли на бухгалтерию 3,0</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: bottom;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p>Настроили обмен данных</p>
+                        <td  valign="top">
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Налажена электронная отчетность</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
+                        </td>
+                        <td>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
                         </td>
                     </tr>
                 </table>
         </div>
-                <div class="col-lg-4 col-xs-12">
+                <div class="col-lg-4 col-xs-12" style="padding: 0;">
                 <table class="chevronPart">
                     <tr>
-                        <td colspan="2">
+                        <td colspan="2" height="150px">
+                        <center>
                             <img src="/img/part2.png" style="margin-bottom: 20px;">
+                        </center>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Перешли на бухгалтерию 3,0</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Настроили обмен данных</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Налажена электронная отчетность</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
                         </td>
                     </tr>
                 </table>
         </div>
-        <div class="col-lg-4 col-xs-12">
+        <div class="col-lg-4 col-xs-12"  style="padding: 0;">
                 <table class="chevronPart">
                     <tr>
-                        <td colspan="2">
+                        <td colspan="2" height="150px" style="vertical-align: middle;">
+                        <center>
                             <img src="/img/part3.png" style="padding-top: 37px; margin-bottom: 20px;">            
+                        </center>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Перешли на бухгалтерию 3,0</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Настроили обмен данных</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Попробовали наиболее эффективные решения для своих целей</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: bottom;">
+                        <td style="vertical-align: top;">
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p>Налажена электронная отчетность</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
                         </td>
                     </tr>
                 </table>
@@ -433,15 +439,15 @@ $this->title = 'My Yii Application';
     <a name="sertif"><h2>наши сертификаты</h2></a>
 </div>
 <div class="row">
-    <div class="col-lg-12">
-        <div class="col-lg-3 col-md-6 col-xs-12">
+    <div class="col-lg-12"  style="padding: 0;">
+        <div class="col-lg-3 col-md-6 col-xs-12"  style="padding: 0;">
             <img src="/img/sert1.png">
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;">
             <img src="/img/sert1.png">
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"></div>
-        <div class="col-lg-3 col-md-6 col-xs-12"><img src="/img/sert1.png"></div>
+        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;"><img src="/img/sert1.png"></div>
+        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;"><img src="/img/sert1.png"></div>
     </div>
             <div class="col-lg-12 dispNone">
             <br>
@@ -457,8 +463,8 @@ $this->title = 'My Yii Application';
     <a name="preim"><h2>наши преимущества</h2></a>
 </div>
 <div class="row advantages">
-    <div class="col-lg-12">
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
+    <div class="col-lg-12" style="padding: 0;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -472,12 +478,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Прозрачная и открытая </span> <span>система работы</span></div>
+                        <span class="mainText">Прозрачная и открытая </span><br> <span>система работы</span></div>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -491,12 +497,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Бесплатный выезд </span> <span>специалиста к вам в офис</span></div>
+                        <span class="mainText">Бесплатный выезд </span><br> <span>специалиста к вам в офис</span></div>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -510,13 +516,13 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Четкое соблюдение условий </span> <span>договора</span></div>
+                        <span class="mainText">Четкое соблюдение условий </span><br> <span>договора</span></div>
                     </td>
                 </tr>
             </table>
         </div> 
-        <!--------------------------------------------------------------------------------------------------------- -->           
-        <div class="col-lg-4 col-md-4 col-sm-6  col-xs-12" style="height:250px;">
+                  
+        <div class="col-lg-4 col-md-4 col-sm-6  col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -530,12 +536,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Оперативно внедряем </span> <span>эффективные наработки, не тратя время на поиск решения</span></div>
+                        <span class="mainText">Оперативно внедряем </span> <br><span>эффективные наработки, не тратя время на поиск решения</span></div>
                     </td>
                 </tr>
             </table>
         </div>  
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="height:250px;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -549,12 +555,12 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span class="mainText">Ведение листа учета </span> <span>рабочего времени</span></div>
+                        <span class="mainText">Ведение листа учета </span> <br><span>рабочего времени</span></div>
                     </td>
                 </tr>
             </table>
         </div>  
-                <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;">
+                <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
             <table>
                 <tr>
                     <td>
@@ -568,7 +574,7 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td><div>
-                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком </span><span class="mainText">акта выполненых работ</span> </div>
+                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком </span><br><span class="mainText">акта выполненых работ</span> </div>
                     </td>
                 </tr>
             </table>
@@ -726,9 +732,18 @@ $this->title = 'My Yii Application';
         </div>
         <div class="col-lg-12 otz" style="padding: 20px;">
             <div class="col-lg-12">
-                <div class="col-lg-4" style="background: url(/img/otz1.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
+                <div class="col-lg-4">
+                    <img src="/img/otz1.png">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/otz2.png">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/otz3.png">
+                </div>
+                <!--<div class="col-lg-4" style="background: url(/img/otz1.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
                 <div class="col-lg-4" style="background: url(/img/otz2.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
-                <div class="col-lg-4" style="background: url(/img/otz3.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
+                <div class="col-lg-4" style="background: url(/img/otz3.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>-->
             </div>
             <div class="col-lg-12 dispNone">
                 <br>
