@@ -6,88 +6,110 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 <div class="col-lg-12" style="padding: 0px;"><a ><h2>Горячие предложения</h2></a>
-<div class="row">
-    	
-    	<div id="carousel" class="carousel slide">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                            <div class="item active" >
-                                <!--<img src="/img/slide.png">
-                                <!--<div class="carousel-caption">
-                                	Быстро и эффективно установим и настроим программы 1с
-                                </div>-->
-                                <div class="row">
-                                	<div class="col-lg-6">
-                                        <img src="/img/slide.png">
-                                    </div>
-                                    <div class="col-lg-6 textSlider" style="position:relative;">
-                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
-                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
-                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
-                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
-                                        <div class="col-lg-8">
-                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
-                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
-                                        </div>
-                                    </div>
+    <div class="row">
+        <div id="carousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" >
+                    <div class="row">
+                      	<div class="col-lg-6">
+                            <img src="/img/slide.png">
+                        </div>
+                        <div class="col-lg-6 textSlider" style="position:relative;">
+                            <div class="col-lg-12">
+                                <img src="/img/bord1.png">
+                            </div>
+                            <div class="col-lg-12 ">
+                                <p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p>
+                            </div>
+                            <div closs="col-lg-12">
+                                <img src="/img/bord2.png">
+                            </div>
+                            <div class="col-lg-8 textBlocSod">
+                                С учетом особенностей ваших бизнес-процессов и задач
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-4 btnSlide">
+                                    <a href="#" id="btn-ZZSLD">заказать</a>
                                 </div>
-                                <!--<img src="/img/slide.png">
-						        <div class="carousel-caption">
-                                	Быстро и эффективно установим и настроим программы 1с
-                                </div>  -->
-                                <!--<div class="carousel-caption-opis">
-                                	С учетом особенностей ваших бизнес-процессов и задач
-                                </div>        -->                 
-						    </div>
-                            <div class="item" >
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <img src="/img/slide.png">
-                                    </div>
-                                    <div class="col-lg-6 textSlider" style="position:relative;">
-                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
-                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
-                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
-                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
-                                        <div class="col-lg-8">
-                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
-                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
-                                        </div>
-                                    </div>
+                                <div class="col-lg-4 btnSlide" id="podr">
+                                    <a href="#">Подробнее -></a>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <img src="/img/slide.png">
-                                    </div>
-                                    <div class="col-lg-6 textSlider" style="position:relative;">
-                                        <div class="col-lg-12"><img src="/img/bord1.png"></div>
-                                        <div class="col-lg-12 "><p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p></div>
-                                        <div closs="col-lg-12"><img src="/img/bord2.png"></div>
-                                        <div class="col-lg-8 textBlocSod">С учетом особенностей ваших бизнес-процессов и задач</div>
-                                        <div class="col-lg-8">
-                                            <div class="col-lg-4 btnSlide"><a href="#" id="btn-ZZSLD">заказать</a></div>
-                                            <div class="col-lg-4 btnSlide" id="podr"><a href="#">Подробнее -></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a class="left carousel-control" href="#carousel" data-slide="prev">
-                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                    <img src="/img/prev.png" class="glyphicon glyphicon-chevron-left">
-                </a>
-                <a class="right carousel-control" href="#carousel" data-slide="next">
-                    <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
-                    <img src="/img/nextOrang.png" class="glyphicon glyphicon-chevron-right">
-                </a>
+                <div class="item" >
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="/img/slide.png">
+                        </div>
+                        <div class="col-lg-6 textSlider" style="position:relative;">
+                            <div class="col-lg-12">
+                                <img src="/img/bord1.png">
+                            </div>
+                            <div class="col-lg-12 ">
+                                <p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p>
+                            </div>
+                            <div closs="col-lg-12">
+                                <img src="/img/bord2.png">
+                            </div>
+                            <div class="col-lg-8 textBlocSod">
+                                С учетом особенностей ваших бизнес-процессов и задач
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-4 btnSlide">
+                                    <a href="#" id="btn-ZZSLD">заказать</a>
+                                </div>
+                                <div class="col-lg-4 btnSlide" id="podr">
+                                    <a href="#">Подробнее -></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="/img/slide.png">
+                        </div>
+                        <div class="col-lg-6 textSlider" style="position:relative;">
+                            <div class="col-lg-12">
+                                <img src="/img/bord1.png">
+                            </div>
+                            <div class="col-lg-12 ">
+                                <p class="textBlocMain">Быстро и эффективно установим и настроим программы 1с</p>
+                            </div>
+                            <div closs="col-lg-12">
+                                <img src="/img/bord2.png">
+                            </div>
+                            <div class="col-lg-8 textBlocSod">
+                                С учетом особенностей ваших бизнес-процессов и задач
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-4 btnSlide">
+                                    <a href="#" id="btn-ZZSLD">заказать</a>
+                                </div>
+                                <div class="col-lg-4 btnSlide" id="podr">
+                                    <a href="#">Подробнее -></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style="min-height: 50px;"></div>
+            <a class="left carousel-control" href="#carousel" data-slide="prev">
+                <img src="/img/prev.png" class="glyphicon glyphicon-chevron-left">
+            </a>
+            <a class="right carousel-control" href="#carousel" data-slide="next">
+                <img src="/img/nextOrang.png" class="glyphicon glyphicon-chevron-right">
+            </a>
+        </div>
+        <div style="min-height: 50px;"></div>
     </div>
 </div>
 <!-- Программное обеспечение -->
@@ -163,7 +185,13 @@ $this->title = 'My Yii Application';
 </div>
 <br/>
 <br/>
-<center><div style="width: 300px;"><p class="allits" style="border-bottom: 1px dashed #000080;"><a href="#">Полный список программного обеспечеия <span class="fa fa-sm fa-long-arrow-down"></a></p></div></center>
+<center>
+    <div style="width: 300px;">
+        <p class="allits" style="border-bottom: 1px dashed #000080;">
+            <a href="#">Полный список программного обеспечеия <span class="fa fa-sm fa-long-arrow-down"></a>
+        </p>
+    </div>
+</center>
 <!-- Подписки -->
 <div>
     <a name="podpiski"><h2>подписки</h2></a>
@@ -173,61 +201,99 @@ $this->title = 'My Yii Application';
         <table width="454" height="395">
             <tr>
                 <td>
-                <div style="position: absolute;">
-                    <img src="/img/podpiski/1.png" width="225">
-                    <p class="price" style="top: %;right: 0%;">от 7 000 <span class="fa fa-sm fa-rub"> / 6 мес</p>
-
-
-                    <div class="its"><center><p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Техно</span></p></center></div>
-                    
-
-
-                    <p class="link" style="left: 55%;top: 83%;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
-                    <div class="btn-zakaz" style="left: 3%;top: 82%;"><p class="btn-text">Оформить</p></div></div>
+                    <div style="position: absolute;">
+                        <img src="/img/podpiski/1.png" width="225">
+                        <p class="price" style="top: %;right: 0%;">от 7 000 <span class="fa fa-sm fa-rub"> / 6 мес</p>
+                        <div class="its">
+                            <center>
+                                <p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Техно</span></p>
+                            </center>
+                        </div>
+                        <p class="link" style="left: 55%;top: 83%;">
+                            <a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a>
+                        </p>
+                        <div class="btn-zakaz" style="left: 3%;top: 82%;">
+                            <p class="btn-text">Оформить</p>
+                        </div>
+                    </div>
                     <div class="hv-next"style="width: 224px; height: 191px; "></div>
                 </td>
                 <td>
-                <div style="position: absolute;">
-                    <img src="/img/podpiski/2.png" width="225">
-                    <p class="price" style="top: 0%;right: 3%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
-                    <div class="its"><center><p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Бюджет</span></p></center></div>
-                    <p class="link" style="left: 55%;top: 83%;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
-                    <div class="btn-zakaz" style="left: 3%;top: 82%;"><p class="btn-text">Оформить</p></div>
+                    <div style="position: absolute;">
+                        <img src="/img/podpiski/2.png" width="225">
+                        <p class="price" style="top: 0%;right: 3%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+                        <div class="its">
+                            <center>
+                                <p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Бюджет</span></p>
+                            </center>
+                        </div>
+                        <p class="link" style="left: 55%;top: 83%;">
+                            <a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a>
+                        </p>
+                        <div class="btn-zakaz" style="left: 3%;top: 82%;">
+                            <p class="btn-text">Оформить</p>
+                        </div>
                     </div>
                     <div class="hv-next"style="width: 224px; height: 191px; "></div>
                 </td>
             </tr>
             <tr>
                 <td>
-                <div style="position: absolute;">
-                    <img src="/img/podpiski/3.png" width="225">
-                    <p class="price" style="top: 0%;right: 3%;">от 10 000 <span class="fa fa-sm fa-rub"></p>
-                    <div class="its"><center><p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Проф</span></p></center></div>
-                    <p class="link" style="left: 55%;top: 83%;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
-                    <div class="btn-zakaz" style="left: 3%;top: 82%;"><p class="btn-text">Оформить</p></div></div>
+                    <div style="position: absolute;">
+                        <img src="/img/podpiski/3.png" width="225">
+                        <p class="price" style="top: 0%;right: 3%;">от 10 000 <span class="fa fa-sm fa-rub"></p>
+                        <div class="its">
+                            <center>
+                                <p class="potext" style="left: 0%;top: 0px;"><span class="itstext">ИТС</span></br><span class="itsname">Проф</span></p>
+                            </center>
+                        </div>
+                        <p class="link" style="left: 55%;top: 83%;">
+                            <a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a>
+                        </p>
+                        <div class="btn-zakaz" style="left: 3%;top: 82%;">
+                            <p class="btn-text">Оформить</p>
+                        </div>
+                    </div>
                     <div class="hv-next"style="width: 224px; height: 191px; "></div>
                 </td>
                 <td>
-                <div style="position: absolute;">
-                    <img src="/img/podpiski/4.png" width="225">
-                    <p class="price" style="top: 0%;right: 3%;">от 14 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
-                    <div class="its"><center><p class="potext" style="left: 0%;top: -15px;"><span class="itstext">ИТС</span></br><span class="itsname">Бюджет</br>проф</span></p></center></div>
-                    <p class="link" style="left: 55%;top: 83%;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
-                    <div class="btn-zakaz" style="left: 3%;top: 82%;"><p class="btn-text">Оформить</p></div></div>
+                    <div style="position: absolute;">
+                        <img src="/img/podpiski/4.png" width="225">
+                        <p class="price" style="top: 0%;right: 3%;">от 14 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+                        <div class="its">
+                            <center>
+                                <p class="potext" style="left: 0%;top: -15px;"><span class="itstext">ИТС</span></br><span class="itsname">Бюджет</br>проф</span></p>
+                            </center>
+                        </div>
+                        <p class="link" style="left: 55%;top: 83%;">
+                            <a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a>
+                        </p>
+                        <div class="btn-zakaz" style="left: 3%;top: 82%;">
+                            <p class="btn-text">Оформить</p>
+                        </div>
+                    </div>
                     <div class="hv-next"style="width: 224px; height: 191px; "></div>
                 </td>
             </tr>
         </table>
     </div>
     <div class="col-lg-6"  style="padding: 0;" >
-    <div style="position: absolute;">
-        <img src="/img/podpiski/5.png"  height="395">
-        <p class="price" style="top: 0%;right: 3%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
-        <div class="its"><center><p class="potext2" style="left: 0%;top: 30px;"><span class="itstext">ИТС</span></br><span class="itsname">Строительство</span></p></center></div>
-        <p class="link" style="left: 75%;top: 93%;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
-        <div class="btn-zakaz" style="left: 3%;top: 91%;"><p class="btn-text">Оформить</p></div>
-    </div>
-    <div class="hv-next col-lg-6"style="height:395px; width:456px;"></div>
+        <div style="position: absolute;">
+            <img src="/img/podpiski/5.png"  height="395">
+            <p class="price" style="top: 0%;right: 3%;">от 10 000 000 <span class="fa fa-sm fa-rub"> / 3 мес</p>
+            <div class="its">
+                <center>
+                    <p class="potext2" style="left: 0%;top: 30px;"><span class="itstext">ИТС</span></br><span class="itsname">Строительство</span></p>
+                </center>
+            </div>
+            <p class="link" style="left: 75%;top: 93%;">
+                <a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a>
+            </p>
+            <div class="btn-zakaz" style="left: 3%;top: 91%;">
+                <p class="btn-text">Оформить</p>
+            </div>
+        </div>
+        <div class="hv-next col-lg-6"style="height:395px; width:456px;"></div>
     </div>
 </div>
 <div>
@@ -255,20 +321,18 @@ $this->title = 'My Yii Application';
         <div class="uslOpis">Быстро и эффективно установим и настроим программы 1с</div>
     </div>
 </div>
-
-    
-	
 <div>
     <a name="partnery"><h2>наши партнеры</h2></a><br>
 </div>
 <div class="row">
     <div class="col-lg-12"  style="padding: 0;">
-        <div class="col-lg-4 col-xs-12"  style="padding: 0;">
+        <?php foreach($partners as $partner):?>
+            <div class="col-lg-4 col-xs-12"  style="padding: 0;">
                 <table class="chevronPart">
                     <tr>
                         <td colspan="2" height="150px">
                             <center>
-                            <img src="/img/part1.png" style="margin-bottom: 20px;"> 
+                                <img src="/img/<?= $partner->logo ?>.png" style="margin-bottom: 20px;"> 
                             </center>    
                         </td>
                     </tr>
@@ -277,7 +341,7 @@ $this->title = 'My Yii Application';
                             <img src="/img/shevronPart.png">
                         </td>
                         <td  valign="top">
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;"><?= $partner->param1 ?></p>
                         </td>
                     </tr>
                     <tr>
@@ -285,7 +349,7 @@ $this->title = 'My Yii Application';
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;"><?= $partner->param2 ?></p>
                         </td>
                     </tr>
                     <tr>
@@ -293,7 +357,7 @@ $this->title = 'My Yii Application';
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;"><?= $partner->param3 ?></p>
                         </td>
                     </tr>
                     <tr>
@@ -301,126 +365,17 @@ $this->title = 'My Yii Application';
                             <img src="/img/shevronPart.png" style="vertical-align: bottom;">
                         </td>
                         <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
+                            <p style="margin-top: 5px; margin-bottom: 10px;"><?= $partner->param4 ?></p>
                         </td>
                     </tr>
                 </table>
         </div>
-                <div class="col-lg-4 col-xs-12" style="padding: 0;">
-                <table class="chevronPart">
-                    <tr>
-                        <td colspan="2" height="150px">
-                        <center>
-                            <img src="/img/part2.png" style="margin-bottom: 20px;">
-                        </center>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
-                        </td>
-                    </tr>
-                </table>
-        </div>
-        <div class="col-lg-4 col-xs-12"  style="padding: 0;">
-                <table class="chevronPart">
-                    <tr>
-                        <td colspan="2" height="150px" style="vertical-align: middle;">
-                        <center>
-                            <img src="/img/part3.png" style="padding-top: 37px; margin-bottom: 20px;">            
-                        </center>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Перешли на бухгалтерию 3,0</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Настроили обмен данных</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Попробовали наиболее эффективные решения для своих целей</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <img src="/img/shevronPart.png" style="vertical-align: bottom;">
-                        </td>
-                        <td>
-                            <p style="margin-top: 5px; margin-bottom: 10px;">Налажена электронная отчетность</p>
-                        </td>
-                    </tr>
-                </table>
-        </div>
- <!--       <div class="col-lg-4 col-xs-12">
-                <img src="/img/part2.png">            
-                <div class="col-lg-12">
-                    <ul class="chevronPart">
-                        <li><i></i>Перешли на бухгалтерию 3,0</li>
-                        <li><i></i>Настроили обмен данных</li>
-                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
-                        <li><i></i>Налажена электронная отчетность</li>
-                    </ul>
-                </div>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-                <img src="/img/part3.png" style="padding-top: 37px;">            
-                <div class="col-lg-12">
-                    <ul class="chevronPart">
-                        <li><i></i>Перешли на бухгалтерию 3,0</li>
-                        <li><i></i>Настроили обмен данных</li>
-                        <li><i></i>Попробовали наиболее эффективные решения для своих целей</li>
-                        <li><i></i>Налажена электронная отчетность</li>
-                    </ul>
-                </div>
-        </div>-->
+        <?php endforeach;?>
         <div class="col-lg-12" style="height:30px;"></div>
-    	<div class="col-lg-12 dispNone">
+        <div class="col-lg-12 dispNone">
             <center>
-                
-                    <img src="/img/left.png">
-                    <img src="/img/nextOrang.png">
-                
+                <img src="/img/left.png">
+                <img src="/img/nextOrang.png">
             </center>   
         </div>
     </div>
@@ -428,161 +383,57 @@ $this->title = 'My Yii Application';
 <div>
     <a name="my"><h2>почему мы</h2></a>
 </div>
-
-
-
-
 <div class="row">
     <div class="col-lg-12 hidden-xs hidden-sm" style="padding: 0px;">
         <img src="/img/my1.png" width="907">
     </div>
 </div>
-
-	
 <div>
     <a name="sertif"><h2>наши сертификаты</h2></a>
 </div>
 <div class="row">
     <div class="col-lg-12"  style="padding: 0;">
-        <div class="col-lg-3 col-md-6 col-xs-12"  style="padding: 0;">
-            <img src="/img/sert1.png">
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;">
-            <img src="/img/sert1.png">
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;"><img src="/img/sert1.png"></div>
-        <div class="col-lg-3 col-md-6 col-xs-12" style="padding: 0;"><img src="/img/sert1.png"></div>
+        <?php foreach ($sertificates as $sertificat):?>
+            <div class="col-lg-3 col-md-6 col-xs-12"  style="padding: 0;">
+                <img src="/img/<?= $sertificat->image ?>.png">
+            </div>
+        <?php endforeach;?>
     </div>
-            <div class="col-lg-12 dispNone">
-            <br>
-            <center>
-                
-                    <img src="/img/left.png">
-                    <img src="/img/nextOrang.png">
-                
-            </center>   
-        </div>
+    <div class="col-lg-12 dispNone">
+        <br>
+        <center>
+            <img src="/img/left.png">
+            <img src="/img/nextOrang.png">
+        </center>   
+    </div>
 </div>
 <div>
     <a name="preim"><h2>наши преимущества</h2></a>
 </div>
 <div class="row advantages">
     <div class="col-lg-12" style="padding: 0;">
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo21.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span class="mainText">Прозрачная и открытая </span><br> <span>система работы</span></div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo22.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span class="mainText">Бесплатный выезд </span><br> <span>специалиста к вам в офис</span></div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo23.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span class="mainText">Четкое соблюдение условий </span><br> <span>договора</span></div>
-                    </td>
-                </tr>
-            </table>
-        </div> 
-                  
-        <div class="col-lg-4 col-md-4 col-sm-6  col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo24.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span class="mainText">Оперативно внедряем </span> <br><span>эффективные наработки, не тратя время на поиск решения</span></div>
-                    </td>
-                </tr>
-            </table>
-        </div>  
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo25.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span class="mainText">Ведение листа учета </span> <br><span>рабочего времени</span></div>
-                    </td>
-                </tr>
-            </table>
-        </div>  
-                <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
-            <table>
-                <tr>
-                    <td>
-                        <img src="/img/polosa.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="advantagesImg">
-                        <img src="/img/logo26.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td><div>
-                        <span>Расчет стоимости и оплата производится на основании согласованного с заказчиком </span><br><span class="mainText">акта выполненых работ</span> </div>
-                    </td>
-                </tr>
-            </table>
-        </div> 
+        <?php foreach ($preim as $value):?>
+            <div class="col-lg-4 col-md-4  col-sm-6 col-xs-12" style="height:250px;padding: 0;">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="/img/polosa.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="advantagesImg">
+                            <img src="/img/<?= $value->image ?>.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><div>
+                                <?= $value->description ?>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>            
+        <?php endforeach; ?>
     </div> 
 </div>
 <div>
@@ -592,103 +443,35 @@ $this->title = 'My Yii Application';
     <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
         <!--<img src="/img/command.png" width="907">-->
 	</div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
+    <?php foreach ($comanda as $comand):?>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
         <table>
             <tr>
                 <td>
                     <!--<img src="/img/Foto1.png" class="fotoRab">-->
-                    <div class="fotoRab" style="background: url(/img/Foto1.png) no-repeat center center;"></div>
+                    <div class="fotoRab" style="background: url(/img/<?= $comand->image ?>.png) no-repeat center center;"></div>
                 </td>
             </tr>
             <tr>
                 <td class="rabName">
-                    Валентин Викторович ТКАЧЕНКО
+                    <?= $comand->nameandotec ?> <?= $comand->familia ?>
                 </td>
             </tr>
             <tr>
                 <td class="rabPost">
-                    <b>Главный менеджер по продажам</b>
+                    <b><?= $comand->dolzhnost ?></b>
                 </td>
             </tr>
             <tr>
                 <td class="rabMail">
-                    <b>valentin@rumicon.ru</b>
+                    <b><?= $comand->email ?></b>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
-        <table>
-            <tr>
-                <td>
-                    <div class="fotoRab" style="background: url(/img/Foto2.png) no-repeat center center;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td class="rabName">
-                    Валентин Викторович ТКАЧЕНКО
-                </td>
-            </tr>
-            <tr>
-                <td class="rabPost">
-                    <b>Главный менеджер по продажам</b>
-                </td>
-            </tr>            
-            <tr>
-                <td class="rabMail">
-                    <b>valentin@rumicon.ru</b>
-                </td>
-            </tr>            
-        </table>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
-        <table>
-            <tr>
-                <td>
-                    <div class="fotoRab" style="background: url(/img/Foto3.png) no-repeat center center;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td class="rabName">
-                    Валентин Викторович ТКАЧЕНКО
-                </td>
-            </tr>                
-            <tr>
-                <td class="rabPost">
-                    <b>Главный менеджер по продажам</b>
-                </td>
-            </tr>   
-            <tr>
-                <td class="rabMail">
-                    <b>valentin@rumicon.ru</b>
-                </td>
-            </tr>                     
-        </table>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 worker">
-        <table>
-            <tr>
-                <td>
-                    <div class="fotoRab" style="background: url(/img/Foto4.png) no-repeat center center;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td class="rabName">
-                    Валентин Викторович ТКАЧЕНКО
-                </td>
-            </tr> 
-            <tr>
-                <td class="rabPost">
-                    <b>Главный менеджер по продажам</b>
-                </td>
-            </tr>
-            <tr>
-                <td class="rabMail">
-                    <b>valentin@rumicon.ru</b>
-                </td>
-            </tr>            
-        </table>
-    </div>
+    <?php endforeach;?>
+    
+    
         <div class="col-lg-12 dispNone">
             <br>
             <center>
@@ -728,7 +511,6 @@ $this->title = 'My Yii Application';
             </form>
         </div>
         <div class="col-lg-2"></div>
-        <!--<img src="/img/obrZ.png" width="300">-->
     </div>
     <div class="col-lg-8">
         <div class="col-lg-12">
@@ -736,28 +518,20 @@ $this->title = 'My Yii Application';
         </div>
         <div class="col-lg-12 otz visible-lg visible-md" style="padding: 20px;">
             <div class="col-lg-12">
-                <div class="col-lg-4">
-                    <img src="/img/otz1.png">
-                </div>
-                <div class="col-lg-4">
-                    <img src="/img/otz2.png">
-                </div>
-                <div class="col-lg-4">
-                    <img src="/img/otz3.png">
-                </div>
-                
+                <?php foreach ($otzivi as $otziv):?>
+                    <div class="col-lg-4">
+                        <img src="/img/<?= $otziv->image ?>.png">
+                    </div>    
+                <?php endforeach;?>
             </div>
             <div class="col-lg-12 dispNone">
                 <br>
                 <center>
-                    
-                        <img src="/img/fffOld.png">
-                        <img src="/img/fffNext.png">
-                    
+                    <img src="/img/fffOld.png">
+                    <img src="/img/fffNext.png">
                 </center>   
             </div>
         </div>
-
         <div class="col-sm-12 visible-sm visible-xs" style="padding: 20px;">
             <div class="col-lg-12">
                 <div class="col-lg-4">
@@ -774,15 +548,11 @@ $this->title = 'My Yii Application';
             <div class="col-lg-12 dispNone">
                 <br>
                 <center>
-                    
-                        <img src="/img/fffOld.png">
-                        <img src="/img/fffNext.png">
-                    
+                    <img src="/img/fffOld.png">
+                    <img src="/img/fffNext.png">
                 </center>   
             </div>
         </div>
-
-    <!--    <img src="/img/otz.png" width="907">-->
     </div>
 </div>
 <div>

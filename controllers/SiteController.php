@@ -8,6 +8,11 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Partners;
+use app\models\Sertificates;
+use app\models\Preim;
+use app\models\Comanda;
+use app\models\Otzivi;
 
 class SiteController extends Controller
 {
@@ -60,7 +65,20 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+
+        $partners = Partners::find()->all();
+        $sertificates = Sertificates::find()->all();
+        $preim = Preim::find()->all();
+        $comanda = Comanda::find()->all();
+        $otzivi = Otzivi::find()->all();
+
+        return $this->render('index',[
+            'partners' => $partners,
+            'sertificates' => $sertificates,
+            'preim' => $preim,
+            'comanda' => $comanda,
+            'otzivi' => $otzivi,
+        ]);
     }
 
     /**
