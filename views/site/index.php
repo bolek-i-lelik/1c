@@ -5,7 +5,7 @@
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-<div class="col-lg-12"><a ><h2>Горячие предложения</h2></a>
+<div class="col-lg-12" style="padding: 0px;"><a ><h2>Горячие предложения</h2></a>
 <div class="row">
     	
     	<div id="carousel" class="carousel slide">
@@ -741,9 +741,7 @@ $this->title = 'My Yii Application';
                 <div class="col-lg-4">
                     <img src="/img/otz3.png">
                 </div>
-                <!--<div class="col-lg-4" style="background: url(/img/otz1.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
-                <div class="col-lg-4" style="background: url(/img/otz2.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>
-                <div class="col-lg-4" style="background: url(/img/otz3.png) no-repeat center center;width: 170px;height: 240px;padding: 18px;"></div>-->
+                
             </div>
             <div class="col-lg-12 dispNone">
                 <br>
