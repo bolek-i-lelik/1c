@@ -428,9 +428,13 @@ $this->title = 'My Yii Application';
 <div>
     <a name="my"><h2>почему мы</h2></a>
 </div>
+
+
+
+
 <div class="row">
-    <div class="col-lg-12">
-        <img src="/img/my.png" width="907">
+    <div class="col-lg-12 hidden-xs hidden-sm" style="padding: 0px;">
+        <img src="/img/my1.png" width="907">
     </div>
 </div>
 
@@ -730,7 +734,31 @@ $this->title = 'My Yii Application';
         <div class="col-lg-12">
             <h2 style="margin-left: 0px;">отзывы наших клиентов</h2>
         </div>
-        <div class="col-lg-12 otz" style="padding: 20px;">
+        <div class="col-lg-12 otz visible-lg visible-md" style="padding: 20px;">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+                    <img src="/img/otz1.png">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/otz2.png">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/otz3.png">
+                </div>
+                
+            </div>
+            <div class="col-lg-12 dispNone">
+                <br>
+                <center>
+                    
+                        <img src="/img/fffOld.png">
+                        <img src="/img/fffNext.png">
+                    
+                </center>   
+            </div>
+        </div>
+
+        <div class="col-sm-12 visible-sm visible-xs" style="padding: 20px;">
             <div class="col-lg-12">
                 <div class="col-lg-4">
                     <img src="/img/otz1.png">
@@ -762,7 +790,7 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row">
     <div class="col-lg-12">
-        <img src="/img/calc.png" width="907">
+        <!--<img src="/img/calc.png" width="907">-->
 	</div>
 </div>
 <div class="row">
@@ -808,11 +836,11 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row">
     <div class="col-lg-12">
-	   <img src="/img/cont.png" width="907">
+	   <!--<img src="/img/cont.png" width="907">-->
 	</div>
 </div>
 <div class="row">
 	<div class="col-lg-12">
-		<img src="/img/map.png" width="907">
+		<!--<img src="/img/map.png" width="907">-->
 	</div>
 </div>
