@@ -33,6 +33,21 @@ class UpdateController extends \yii\web\Controller
     			echo mb_detect_encoding($value);
     			//$value = iconv('cp-1251', 'UTF-8', $value);
     			echo $key.' - '.$value.'<br>';
+    			if($key == 'GroupNom'){
+    				foreach ($value as $value1) {
+    					echo $value1.'<br>';
+    				}
+    			}
+    			if($key == 'Svoistva'){
+    				foreach ($value as $value1) {
+    					echo $value1.'<br>';
+    				}
+    			}
+    			if($key == 'Categories'){
+    				foreach ($value as $value1) {
+    					echo $value1.'<br>';
+    				}
+    			}
     		}
     		echo '<hr>';
     		echo '<hr>';
