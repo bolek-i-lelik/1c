@@ -20,6 +20,8 @@ AppAsset::register($this);
     <?php $this->head() ?>
     
 <script src="https://use.fontawesome.com/e2d41fd859.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
 
 </head>
 <body>

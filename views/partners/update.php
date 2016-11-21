@@ -14,6 +14,8 @@ $this->params['breadcrumbs'][] = 'Изменить';
 
     <h1><?= Html::encode($this->title) ?></h1>
 
+    <img src="/img/<?= $model->logo ?>">
+
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>

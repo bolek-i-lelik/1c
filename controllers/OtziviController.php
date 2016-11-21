@@ -8,6 +8,9 @@ use app\models\OtziviSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\UploadForm;
+use yii\web\UploadedFile;
+
 
 /**
  * OtziviController implements the CRUD actions for Otzivi model.
@@ -66,11 +69,18 @@ class OtziviController extends Controller
      */
     public function actionCreate()
     {
-        $model = new Otzivi();
+        $model = new UploadForm();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            if ($model->upload()) {
+                //var_dump($model->imageFile->name);exit();
+                $otziv = new Otzivi();
+                $otziv->image = $model->imageFile->name;
+                $otziv->save();
+                return $this->redirect('index');
+            }
+        }else {
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -86,12 +96,21 @@ class OtziviController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $model2 = new UploadForm();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if (Yii::$app->request->isPost) {
+            $model2->imageFile = UploadedFile::getInstance($model2, 'imageFile');
+            if ($model2->upload()) {
+                $id = $model->id;
+                $otziv = Otzivi::find()->where(['id'=>$id])->one();
+                $otziv['image'] = $model2->imageFile->name;
+                $otziv->save();
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
         } else {
             return $this->render('update', [
                 'model' => $model,
+                'model2' => $model2,
             ]);
         }
     }

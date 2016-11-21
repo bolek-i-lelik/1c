@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-
+use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Otzivi */
@@ -14,8 +14,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <?= $this->render('_form', [
-        'model' => $model,
-    ]) ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
+
+    	<?= $form->field($model, 'imageFile')->fileInput() ?>
+
+    	<button class="btn btn-success">Cохранить</button>
+
+	<?php ActiveForm::end() ?>
+
+    
 
 </div>

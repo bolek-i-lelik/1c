@@ -332,7 +332,7 @@ $this->title = 'My Yii Application';
                     <tr>
                         <td colspan="2" height="150px">
                             <center>
-                                <img src="/img/<?= $partner->logo ?>.png" style="margin-bottom: 20px;"> 
+                                <img src="/img/<?= $partner->logo ?>" style="margin-bottom: 20px;"> 
                             </center>    
                         </td>
                     </tr>
@@ -395,7 +395,7 @@ $this->title = 'My Yii Application';
     <div class="col-lg-12"  style="padding: 0;">
         <?php foreach ($sertificates as $sertificat):?>
             <div class="col-lg-3 col-md-6 col-xs-12"  style="padding: 0;">
-                <img src="/img/<?= $sertificat->image ?>.png">
+                <img src="/img/<?= $sertificat->image ?>">
             </div>
         <?php endforeach;?>
     </div>
@@ -422,7 +422,7 @@ $this->title = 'My Yii Application';
                     </tr>
                     <tr>
                         <td class="advantagesImg">
-                            <img src="/img/<?= $value->image ?>.png">
+                            <img src="/img/<?= $value->image ?>">
                         </td>
                     </tr>
                     <tr>
@@ -439,6 +439,19 @@ $this->title = 'My Yii Application';
 <div>
     <a name="preim"><h2>наша команда</h2></a>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="row" >
     <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
         <!--<img src="/img/command.png" width="907">-->
@@ -449,7 +462,7 @@ $this->title = 'My Yii Application';
             <tr>
                 <td>
                     <!--<img src="/img/Foto1.png" class="fotoRab">-->
-                    <div class="fotoRab" style="background: url(/img/<?= $comand->image ?>.png) no-repeat center center;"></div>
+                    <div class="fotoRab" style="background: url(/img/<?= $comand->image ?>) no-repeat center center;"></div>
                 </td>
             </tr>
             <tr>
@@ -520,7 +533,7 @@ $this->title = 'My Yii Application';
             <div class="col-lg-12">
                 <?php foreach ($otzivi as $otziv):?>
                     <div class="col-lg-4">
-                        <img src="/img/<?= $otziv->image ?>.png">
+                        <img src="/img/<?= $otziv->image ?>">
                     </div>    
                 <?php endforeach;?>
             </div>

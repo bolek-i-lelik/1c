@@ -12,8 +12,6 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'logo')->textInput(['maxlength' => true]) ?>
-
     <?= $form->field($model, 'param1')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'param2')->textInput(['maxlength' => true]) ?>
@@ -27,5 +25,5 @@ use yii\widgets\ActiveForm;
     </div>
 
     <?php ActiveForm::end(); ?>
-
+    <a href="foto?id=<?= $model->id ?>"><button type="button" class="btn btn-success">Изменить логотип</button></a>
 </div>

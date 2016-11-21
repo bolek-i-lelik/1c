@@ -8,6 +8,8 @@ use app\models\SertificatesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\UploadForm;
+use yii\web\UploadedFile;
 
 /**
  * SertificatesController implements the CRUD actions for Sertificates model.
@@ -66,11 +68,18 @@ class SertificatesController extends Controller
      */
     public function actionCreate()
     {
-        $model = new Sertificates();
+        $model = new UploadForm();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            if ($model->upload()) {
+                $sert = new Sertificates();
+                $sert->image = $model->imageFile->name;
+                $sert->save();
+                //var_dump($model);exit();
+                return $this->redirect('index');
+            }
+        }else {
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -86,12 +95,21 @@ class SertificatesController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $model2 = new UploadForm();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if (Yii::$app->request->isPost) {
+            $model2->imageFile = UploadedFile::getInstance($model2, 'imageFile');
+            if ($model2->upload()) {
+                $id = $model->id;
+                $sert = Sertificates::find()->where(['id'=>$id])->one();
+                $sert['image'] = $model2->imageFile->name;
+                $sert->save();
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
         } else {
             return $this->render('update', [
                 'model' => $model,
+                'model2' => $model2,
             ]);
         }
     }

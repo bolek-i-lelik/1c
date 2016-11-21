@@ -37,12 +37,10 @@ AppAsset::register($this);
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/podpiski/index', true); ?>">ПОДПИСКИ</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/uslugi/index', true); ?>">УСЛУГИ</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/partners/index', true); ?>">НАШИ ПАРТНЕРЫ</a></li>
-                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/whywe/index', true); ?>">ПОЧЕМУ МЫ</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/sertificates/index', true); ?>">СЕРТИФИКАТЫ</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/preim/index', true); ?>">ПРЕИМУЩЕСТВА</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/comanda/index', true); ?>">КОМАНДА</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/otzivi/index', true); ?>">ОТЗЫВЫ</a></li>
-                    <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/tags/index', true); ?>">ОБЛАКО ТЭГОВ</a></li>
                     <li><img src="/img/borderMain.png"><a href="<?= Url::toRoute('/contacts/index', true); ?>">КОНТАКТЫ</a><img src="/img/borderMain.png"></li>
                     <li class="hb-but hb-but-login hb-but-main">
                         <!--<input id="hb-but-login" class="j_hcb j_off" type="checkbox">-->

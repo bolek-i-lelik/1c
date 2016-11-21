@@ -6,6 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Comanda */
 
+
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Команда', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -24,12 +25,12 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </p>
-
+    <?php $model->image = '/img/'.$model->image; ?>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'id',
-            'image',
+            'image:image',
             'familia',
             'nameandotec',
             'dolzhnost',

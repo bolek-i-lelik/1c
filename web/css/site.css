@@ -2828,3 +2828,25 @@ margin-bottom: 10px;
     50% { opacity: 1; }   
     to { opacity: 0; }   
 }
+
+#makeMeScrollable{
+ /* ширина контейнера, можно задать в процентах */
+width:700px;
+margin:0 auto;
+display:block;
+position:relative;}
+
+/* стиль блоков, вложенных в контейнер makeMeScrollable*/
+.part{
+display:inline-block;
+width:267px; height:200px;}
+
+/* рамка-кадр */
+.shot{
+position:absolute;
+z-index:3;}
+/* картинка */
+.photo{
+mix-blend-mode: difference;
+position:absolute;
+z-index:2;}

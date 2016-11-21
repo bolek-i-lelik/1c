@@ -2,10 +2,12 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ComandaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+
 
 $this->title = 'Команда';
 $this->params['breadcrumbs'][] = $this->title;
@@ -24,8 +26,16 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            //'image',
+            [
+                'label' => 'Фотография',
+                'format' => 'raw',
+                'value' => function($data){
+                    return Html::img(Url::toRoute('/img/'.$data->image),[
+                        'alt'=>'yii2 - картинка в gridview',
+                        'style' => 'width:90px;'
+                    ]);
+                },
+            ],
             'familia',
             'nameandotec',
             'dolzhnost',

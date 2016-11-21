@@ -28,7 +28,7 @@ class Preim extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['image', 'title', 'description'], 'required'],
+            [['title', 'description'], 'required'],
             [['image', 'title', 'description'], 'string', 'max' => 255],
         ];
     }

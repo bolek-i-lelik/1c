@@ -30,7 +30,7 @@ class Partners extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['logo', 'param1', 'param2', 'param3', 'param4'], 'required'],
+            [['param1', 'param2', 'param3', 'param4'], 'required'],
             [['logo', 'param1', 'param2', 'param3', 'param4'], 'string', 'max' => 255],
         ];
     }

@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
@@ -25,7 +26,16 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'logo',
+            [
+                'label' => 'Логотип',
+                'format' => 'raw',
+                'value' => function($data){
+                    return Html::img(Url::toRoute('/img/'.$data->logo),[
+                        'alt'=>'yii2 - картинка в gridview',
+                        'style' => 'width:250px;'
+                    ]);
+                },
+            ],
             //'param1',
             //'param2',
             //'param3',

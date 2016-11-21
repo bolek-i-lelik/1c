@@ -24,12 +24,12 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </p>
-
+    <?php $model->image = '/img/'.$model->image; ?>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'id',
-            'image',
+            'image:image',
             'title',
             'description',
         ],

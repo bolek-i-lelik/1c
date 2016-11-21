@@ -30,7 +30,7 @@ class Comanda extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['image', 'familia', 'nameandotec', 'dolzhnost', 'email'], 'required'],
+            [['familia', 'nameandotec', 'dolzhnost', 'email'], 'required'],
             [['image', 'familia', 'nameandotec', 'dolzhnost', 'email'], 'string', 'max' => 255],
         ];
     }

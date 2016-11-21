@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\SertificatesSearch */
@@ -25,7 +26,16 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'image',
+            [
+                'label' => 'Отзыв',
+                'format' => 'raw',
+                'value' => function($data){
+                    return Html::img(Url::toRoute('/img/'.$data->image),[
+                        'alt'=>'yii2 - картинка в gridview',
+                        'style' => 'width:120px;'
+                    ]);
+                },
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
