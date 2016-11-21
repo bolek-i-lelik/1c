@@ -197,7 +197,7 @@ $this->title = 'My Yii Application';
     <a name="podpiski"><h2>подписки</h2></a>
 </div>
 <div class="row">
-    <div class="col-lg-6"  style="padding: 0;">
+    <div class="col-lg-6"  style="padding: 0; width: 453px;">
         <table width="454" height="395">
             <tr>
                 <td>
@@ -325,10 +325,12 @@ $this->title = 'My Yii Application';
     <a name="partnery"><h2>наши партнеры</h2></a><br>
 </div>
 <div class="row">
-    <div class="col-lg-12"  style="padding: 0;">
+    <div class="col-lg-12"  style="padding: 0;" name="partners">
+    <?php $count=0;?>
         <?php foreach($partners as $partner):?>
+            <?php if ($count<3):?>
             <div class="col-lg-4 col-xs-12"  style="padding: 0;">
-                <table class="chevronPart">
+                <table class="chevronPart" name=<?=$partner->id ?>>
                     <tr>
                         <td colspan="2" height="150px">
                             <center>
@@ -370,12 +372,14 @@ $this->title = 'My Yii Application';
                     </tr>
                 </table>
         </div>
+        <?php $count++;?>
+        <?php endif; ?>
         <?php endforeach;?>
         <div class="col-lg-12" style="height:30px;"></div>
         <div class="col-lg-12 dispNone">
             <center>
                 <img src="/img/left.png">
-                <img src="/img/nextOrang.png">
+                <img src="/img/nextOrang.png" onclick="nextPartner('$partners');">
             </center>   
         </div>
     </div>
@@ -563,7 +567,13 @@ $this->title = 'My Yii Application';
         <!--<img src="/img/calc.png" width="907">-->
 	</div>
 </div>
-<div class="row">
+<div class="dispNone">
+    <a href="#"><h2>Быстрый поиск продуктов по их характеристики</h2></a>
+</div>
+<div class="row dispNone" style="height: 300px;">
+    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
+        <!--<img src="/img/command.png" width="907">-->
+    </div>
     <div class="col-lg-12 tags" >
         <!--<ul class="tags">
             <li><a href="#">#teg</a></li>
@@ -611,6 +621,17 @@ $this->title = 'My Yii Application';
 </div>
 <div class="row">
 	<div class="col-lg-12">
-		<!--<img src="/img/map.png" width="907">-->
+		<img src="/img/map.png" width="907">
 	</div>
 </div>
+<script type="text/javascript">
+    function nextPartner(mass){
+        //alert('test');
+        var divTab = document.GetElementsByName('partners');
+        //var tab1 = divTab.childNodes[0];
+        //var tab2 = divTab.childNodes[1];
+        //var tab3 = divTab.childNodes[2];
+        var elem = divTab.getElementsByTagName('*');
+        alert(elem.length);
+    }
+</script>
