@@ -19,7 +19,7 @@ $this->title = 'My Yii Application';
                       	<div class="col-lg-6">
                             <img src="/img/slide.png">
                         </div>
-                        <div class="col-lg-6 textSlider" style="position:relative;">
+                        <div class="col-lg-6 textSlider dispNone" style="position:relative;">
                             <div class="col-lg-12">
                                 <img src="/img/bord1.png">
                             </div>

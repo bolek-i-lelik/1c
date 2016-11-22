@@ -2419,25 +2419,30 @@ width: 10px;
     border: 1px solid #ff6d5a; /* Рамка */
     background-color: #ff6d5a;
     display: inline-block;
-    padding: 10px 10px; /* Поля */
+    /*padding: 10px 10px; /* Поля */*/
     text-decoration: none; /* Убираем подчёркивание */
     color: #fff; /* Цвет текста */
         height: 20px;
     text-align: center;
   vertical-align: middle;
-  margin-left: 20%;
+  margin-left: 10%;
   position: absolute;
+  height: 30px;
+  width: 130px;
+  font-size: 16px;
+  padding-top: 10px;
 
 
   }
   .btnSlide{
     position: absolute;
     bottom: -40px;
+    padding-left: 10%;
   }
   #podr{
     top: auto;
-    bottom: -66px;
-    right: 0px;
+    bottom: -70px;
+    right: -20%;
   }
   .price{
     position: absolute;
@@ -2850,3 +2855,7 @@ z-index:3;}
 mix-blend-mode: difference;
 position:absolute;
 z-index:2;}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -50px;
+}
