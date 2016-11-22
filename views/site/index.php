@@ -332,6 +332,11 @@ $this->title = 'My Yii Application';
             <div class="col-lg-4 col-xs-12"  style="padding: 0;">
                 <table class="chevronPart" name=<?=$partner->id ?>>
                     <tr>
+                        <td colspan="2" >
+                            <img src="/img/polosa.png">
+                        </td>
+                    </tr>
+                    <tr>
                         <td colspan="2" height="150px">
                             <center>
                                 <img src="/img/<?= $partner->logo ?>" style="margin-bottom: 20px;"> 
@@ -396,6 +401,9 @@ $this->title = 'My Yii Application';
     <a name="sertif"><h2>наши сертификаты</h2></a>
 </div>
 <div class="row">
+    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
+        <!--<img src="/img/command.png" width="907">-->
+    </div>
     <div class="col-lg-12"  style="padding: 0;">
         <?php foreach ($sertificates as $sertificat):?>
             <div class="col-lg-3 col-md-6 col-xs-12"  style="padding: 0;">
@@ -627,11 +635,7 @@ $this->title = 'My Yii Application';
 <div>
     <a name="cont"><h2>контакты</h2></a>
 </div>
-<div class="row">
-    <div class="col-lg-12">
-	   <!--<img src="/img/cont.png" width="907">-->
-	</div>
-</div>
+
 <div class="row">
 	<div class="col-lg-12">
 		<img src="/img/map.png" width="907">
