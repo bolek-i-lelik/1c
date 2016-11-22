@@ -117,7 +117,7 @@ $this->title = 'My Yii Application';
     <a name="po"><h2>программное обеспечение</h2></a>
 </div>
 <div class="row">
-    <div class="col-lg-6" style="padding: 0;">
+    <div class="col-lg-6" style="padding: 0; width: 452px;">
         <table class="poHover" width="450">
             <tr>
                 <td style="vertical-align: top;">
@@ -165,7 +165,7 @@ $this->title = 'My Yii Application';
             <tr height="194">
                 <td style="vertical-align: bottom;">
                     <div class="sumProd" style="position: absolute;"> 
-                        <img src="/img/po/6.png" width="223">
+                        <img src="/img/po/6.png" width="223" style="margin-top: 3px;">
                         <p class="price" style="right: 6%; top: 0%;">от 10 000 000<span class="fa fa-sm fa-rub"></p>
                         <p class="link" style="left: 2%;top: 165px;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
                     </div>
@@ -173,7 +173,7 @@ $this->title = 'My Yii Application';
                 </td>
                 <td style="vertical-align: bottom;">
                     <div class="sumProd" style="position: absolute;"> 
-                        <img src="/img/po/4.png" width="223" align="right" height="191">
+                        <img src="/img/po/4.png" width="223" align="right" height="191"  style="margin-top: 3px;">
                         <p class="price" style="top: 0%;right: 5%;">от 10 000 000<span class="fa fa-sm fa-rub"></p>
                         <p class="link" style="left: 6%;top: 165px;"><a href="#">Подробнее   <span class="fa fa-sm fa-long-arrow-right"></a></p>
                     </div>
