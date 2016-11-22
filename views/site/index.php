@@ -677,14 +677,23 @@ $this->title = 'My Yii Application';
                 <img src="/img/instagram.png">
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 send" >
             <img src="/img/bord1.png">
+            <div>
+                Оставьте Ваши контактные данные и мы с удовольствием свяжемся с Вами
+            </div>
+            <form action="#" class="formSend">
+                <input type="text" name="nameForCall" value="     Ваше имя">
+                <input type="text" name="forCall" value="     Контактный телефон"><br>
+                <input type="button" name="buttonForCall" value="отправить">
+            </form>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12">
         <img src="/img/map.png" width="907">
+
     </div>
 </div>
 <script type="text/javascript">

@@ -2871,3 +2871,56 @@ z-index:2;}
 .contacts img{
   padding: 20px 10px 20px 0px;
 }
+.send{
+  background-image: url(/img/send.png);
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+.send img{
+  padding: 10px;
+  padding-top: 20px;
+  
+  max-width: 410px;
+  padding-left: 5%;
+}
+.send div{
+  padding: 10px;
+  font-size: 14px;
+  padding-right: 40%;
+  line-height: 1;
+  padding-left: 5%;
+}
+.send form{
+  padding: 10px;
+  padding-right: 10%;
+  padding-left: 5%;
+  max-width: 440px;
+}
+ .formSend input[type="text"]{
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #cccccc;
+  color: #a8a8a8;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  font-size: 14px;
+ }
+ /*button*/
+.formSend input[type="button"]{
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 40%;
+  max-width: 400px;
+  border: 1px solid #af7ac3;
+  color: #fff;
+  background-color: #af7ac3;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  font-size: 16px;
+ }
