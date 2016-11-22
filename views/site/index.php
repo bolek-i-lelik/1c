@@ -636,18 +636,18 @@ $this->title = 'My Yii Application';
     <a name="cont"><h2>контакты</h2></a>
 </div>
 <div class="row" >
-    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
+    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 10px;">
         <!--<img src="/img/command.png" width="907">-->
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12">
-        <div class="col-lg-6">
-            <img src="/img/bord1.png">
+        <div class="col-lg-6 contacts">
+            <img src="/img/bord1.png" >
             <table>
                 <tr>
                     <td>
-                        <img src="">
+                        <img src="/img/buttonMap.png">
                     </td>
                     <td>
                         Россия, Москва, ул.Вернадского,40
@@ -655,7 +655,7 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td>
-                        <img src="">
+                        <img src="/img/convert.png">
                     </td>
                     <td>
                         info@rumicon
@@ -663,7 +663,7 @@ $this->title = 'My Yii Application';
                 </tr>
                 <tr>
                     <td>
-                        <img src="">
+                        <img src="/img/trubka.png">
                     </td>
                     <td>
                         8(812)336-48-30
@@ -672,9 +672,9 @@ $this->title = 'My Yii Application';
             </table>
             <img src="/img/bord1.png">
             <div>
-                <img src="">
-                <img src="">
-                <img src="">
+                <img src="/img/facebook.png">
+                <img src="/img/vk.png">
+                <img src="/img/instagram.png">
             </div>
         </div>
         <div class="col-lg-6">

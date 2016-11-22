@@ -2859,6 +2859,15 @@ z-index:2;}
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -50px;
 }
-.sumProd{
+/*.sumProd{
   margin-top: 3px;
+}*/
+.contacts table{
+  font-size: 18px;
+}
+.contacts td{
+  padding: 10px, 0px;
+}
+.contacts img{
+  padding: 20px 10px 20px 0px;
 }
