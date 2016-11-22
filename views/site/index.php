@@ -635,11 +635,57 @@ $this->title = 'My Yii Application';
 <div>
     <a name="cont"><h2>контакты</h2></a>
 </div>
-
+<div class="row" >
+    <div class="col-lg-12" style="background-image: url(/img/polosa1Fon.png);background-repeat: repeat;margin-bottom: 50px;">
+        <!--<img src="/img/command.png" width="907">-->
+    </div>
+</div>
 <div class="row">
-	<div class="col-lg-12">
-		<img src="/img/map.png" width="907">
-	</div>
+    <div class="col-lg-12">
+        <div class="col-lg-6">
+            <img src="/img/bord1.png">
+            <table>
+                <tr>
+                    <td>
+                        <img src="">
+                    </td>
+                    <td>
+                        Россия, Москва, ул.Вернадского,40
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="">
+                    </td>
+                    <td>
+                        info@rumicon
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="">
+                    </td>
+                    <td>
+                        8(812)336-48-30
+                    </td>
+                </tr>
+            </table>
+            <img src="/img/bord1.png">
+            <div>
+                <img src="">
+                <img src="">
+                <img src="">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="/img/bord1.png">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="/img/map.png" width="907">
+    </div>
 </div>
 <script type="text/javascript">
     function nextPartner(mass){
